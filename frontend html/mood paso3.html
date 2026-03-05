@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="es"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#2397f6",
+                        "background-light": "#f5f7f8",
+                        "background-dark": "#101a22",
+                    },
+                    fontFamily: {
+                        "display": ["Inter"]
+                    },
+                    borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+                },
+            },
+        }
+    </script>
+<title>Resultado Mood Quiz - EMOTIONS</title>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-display text-slate-900 dark:text-slate-100 min-h-screen">
+<div class="relative flex h-auto min-h-screen w-full flex-col bg-gradient-to-b from-[#101a22] to-[#0a1118] overflow-x-hidden">
+<div class="layout-container flex h-full grow flex-col">
+<!-- Top Navigation Bar -->
+<header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-slate-800 px-6 md:px-10 py-4">
+<div class="flex items-center gap-3 text-primary">
+<div class="size-6">
+<svg fill="currentColor" viewbox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path d="M4 42.4379C4 42.4379 14.0962 36.0744 24 41.1692C35.0664 46.8624 44 42.2078 44 42.2078L44 7.01134C44 7.01134 35.068 11.6577 24.0031 5.96913C14.0971 0.876274 4 7.27094 4 7.27094L4 42.4379Z"></path>
+</svg>
+</div>
+<h2 class="text-slate-100 text-lg font-bold leading-tight tracking-[-0.015em]">EMOTIONS</h2>
+</div>
+<button class="flex items-center justify-center rounded-lg h-10 w-10 bg-slate-800 text-slate-100 hover:bg-slate-700 transition-colors">
+<span class="material-symbols-outlined">settings</span>
+</button>
+</header>
+<main class="flex-1 flex flex-col items-center px-4 md:px-0 py-10 max-w-4xl mx-auto w-full">
+<!-- Result Hero Section -->
+<div class="text-center mb-12">
+<span class="text-primary text-sm font-semibold uppercase tracking-widest mb-2 block">Tu mood de hoy es</span>
+<h1 class="text-slate-100 text-5xl md:text-6xl font-black leading-tight tracking-[-0.033em] mb-4">Lluvia de medianoche</h1>
+<p class="text-slate-400 text-lg italic font-medium max-w-lg mx-auto leading-relaxed">
+                        "La música expresa lo que no puede decirse con palabras"
+                    </p>
+</div>
+<!-- Playlist Section -->
+<div class="w-full mb-12">
+<div class="flex items-center justify-between mb-6">
+<h3 class="text-slate-100 text-xl font-bold tracking-tight px-2">Tu playlist personalizada</h3>
+<span class="text-primary text-sm font-medium">4 canciones seleccionadas</span>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+<!-- Song Card 1 -->
+<div class="flex items-center gap-4 bg-slate-800/40 p-3 rounded-xl border border-slate-700/50 hover:bg-slate-800/60 transition-all group">
+<img class="size-16 rounded-lg object-cover shadow-lg" data-alt="Dark aesthetic album cover with blue tones" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDKxdNIT1JL59zsDdGEHBswz6c_TdkQwc2a34XNnL1V3nmEy9bUP7-G4TzOkPtW8Q-bcpAZhJcRLXUdYnLFL12zHFia_PAgFtoUsjA0tkiP7IhfnB2csiSt07MWh2zAvLA03Mm94df8JjaioHR5bOXBpI-JyyuB0JQniScyfddNj_Iv2SzCp-U4uXPuFkpNFRuohzCfqHYhC5G5UKrnZeL0lkf1lQZ3xaIi63jrFrmIaa3-J7ojE5bXRE32RM5boLEV-_JQMuHuUPUh"/>
+<div class="flex-1 min-w-0">
+<h4 class="text-slate-100 font-bold truncate">Midnight City</h4>
+<p class="text-slate-400 text-sm truncate">M83</p>
+</div>
+<button class="flex items-center justify-center bg-[#1DB954] hover:bg-[#1ed760] text-black px-3 py-1.5 rounded-full text-xs font-bold gap-1 transition-colors">
+<span class="material-symbols-outlined text-sm">play_circle</span>
+                                Spotify
+                            </button>
+</div>
+<!-- Song Card 2 -->
+<div class="flex items-center gap-4 bg-slate-800/40 p-3 rounded-xl border border-slate-700/50 hover:bg-slate-800/60 transition-all">
+<img class="size-16 rounded-lg object-cover shadow-lg" data-alt="Rainy street lights at night photography" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBO1USqT2ltnemVLbtVLCqn-V-tyKHPpJ8iTeXIBA_H7xvPDFMpuUeIXF62EgB4KCyIAfJVZs5pG-4YKuEpYDZYdtFXN0uVpScvbsL0GD0A2Ix6w5nzQJe7LHdf8XtFXxOifbGonO4DXKEohugwu_6ZgKpiOx9HAKIqbLoxLFCKxRNazTU693Md_HlYpINyO-4F89fuRvhkPk46iFa5k44SB6d-tGnRB4UwgeCSr3XP-wF45pmyyVXgzKjT4FI3OJ6EB_1Yw0ACJBOQ"/>
+<div class="flex-1 min-w-0">
+<h4 class="text-slate-100 font-bold truncate">Nightcall</h4>
+<p class="text-slate-400 text-sm truncate">Kavinsky</p>
+</div>
+<button class="flex items-center justify-center bg-[#1DB954] hover:bg-[#1ed760] text-black px-3 py-1.5 rounded-full text-xs font-bold gap-1 transition-colors">
+<span class="material-symbols-outlined text-sm">play_circle</span>
+                                Spotify
+                            </button>
+</div>
+<!-- Song Card 3 -->
+<div class="flex items-center gap-4 bg-slate-800/40 p-3 rounded-xl border border-slate-700/50 hover:bg-slate-800/60 transition-all">
+<img class="size-16 rounded-lg object-cover shadow-lg" data-alt="Neon blue music stage background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCXKfNQFiiB6MTv9pJj-famFbvSzmGxPRnKaeulJiQWeRAGQh6k6FGsPm24Ak1pvv_HiUFkKPG5eIYySalny-afSOdTLnng9AqfQSQdL26R25NTP5aFRgenear6ttZ3YeJj0gFBa9ZwSdJpSyWgpaF18j-5V5C6oZtVMVuHziebY2bdZqlXcKdKOVnDiXlZkCdaaB7RDwphlMLvHM0C2q8_Aj3wdL9C8Kgw6W4PGblWAukZjyaaEKQh5bDPSfbwaQYRAdNO0hA_nxB0"/>
+<div class="flex-1 min-w-0">
+<h4 class="text-slate-100 font-bold truncate">After Hours</h4>
+<p class="text-slate-400 text-sm truncate">The Weeknd</p>
+</div>
+<button class="flex items-center justify-center bg-[#1DB954] hover:bg-[#1ed760] text-black px-3 py-1.5 rounded-full text-xs font-bold gap-1 transition-colors">
+<span class="material-symbols-outlined text-sm">play_circle</span>
+                                Spotify
+                            </button>
+</div>
+<!-- Song Card 4 -->
+<div class="flex items-center gap-4 bg-slate-800/40 p-3 rounded-xl border border-slate-700/50 hover:bg-slate-800/60 transition-all">
+<img class="size-16 rounded-lg object-cover shadow-lg" data-alt="Abstract electronic music soundwave visualization" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDY-E_3lULlq8DXHWWupVp10tOE3qVHyq_U_MOwkolRX2y0qEzJEOrryxzptSVFRmGApxFnI6UgXgIySb36TtLdYkpqtrZPDpPgBD5bo6cWDBHLe-055PXPe6cEeo4kaAwVNXX8i4kUTIYuNV-7LuwxYkBGIE4wiaXX3gbwzbTNE7h45o9d_Cbmtq3_WCCpYRgZyDYJEtP449tjnFHywi-LXlwahkTJ_Baz9s_OwT71Nf--VLbkd2qSqaGv-E_QtuQXAh3yBdNb5pLZ"/>
+<div class="flex-1 min-w-0">
+<h4 class="text-slate-100 font-bold truncate">Starboy</h4>
+<p class="text-slate-400 text-sm truncate">The Weeknd, Daft Punk</p>
+</div>
+<button class="flex items-center justify-center bg-[#1DB954] hover:bg-[#1ed760] text-black px-3 py-1.5 rounded-full text-xs font-bold gap-1 transition-colors">
+<span class="material-symbols-outlined text-sm">play_circle</span>
+                                Spotify
+                            </button>
+</div>
+</div>
+</div>
+<!-- Action Buttons -->
+<div class="w-full flex flex-col gap-3 max-w-sm mx-auto">
+<button class="flex items-center justify-center w-full py-4 bg-primary text-white font-bold rounded-xl shadow-lg hover:brightness-110 transition-all gap-2">
+<span class="material-symbols-outlined">share</span>
+                        Compartir mi mood
+                    </button>
+<div class="grid grid-cols-2 gap-3">
+<button class="flex items-center justify-center py-3 bg-slate-800 text-slate-100 font-bold rounded-xl hover:bg-slate-700 transition-all gap-2">
+<span class="material-symbols-outlined text-xl">refresh</span>
+                            Repetir quiz
+                        </button>
+<button class="flex items-center justify-center py-3 bg-slate-800 text-slate-100 font-bold rounded-xl hover:bg-slate-700 transition-all gap-2">
+<span class="material-symbols-outlined text-xl">explore</span>
+                            Explorar más
+                        </button>
+</div>
+</div>
+</main>
+<!-- Footer-like space -->
+<footer class="py-8 text-center">
+<p class="text-slate-500 text-xs">© 2024 EMOTIONS Music App. Powered by MoodAI</p>
+</footer>
+</div>
+</div>
+</body></html>

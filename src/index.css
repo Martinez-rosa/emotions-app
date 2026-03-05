@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+:root {
+  --color-primary: #2397f6;
+  --color-background-light: #f5f7f8;
+  --color-background-dark: #0A0A0A;
+  --font-display: "Inter", sans-serif;
+}
+
+body {
+  background-color: var(--color-background-dark);
+  color: #f1f5f9; /* slate-100 equivalent */
+  font-family: var(--font-display);
+}
+
+.sound-wave-bg {
+  background: radial-gradient(circle at 50% 50%, rgba(35, 151, 246, 0.08) 0%, transparent 70%);
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}

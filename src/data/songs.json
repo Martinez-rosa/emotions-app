@@ -1,0 +1,164 @@
+[
+  {
+    "id": 1,
+    "title": "Happy",
+    "artist": "Pharrell Williams",
+    "emotion": "Feliz",
+    "need": "Sentirse bien",
+    "spotifyUrl": "https://open.spotify.com/track/60nZcImufyMA1KT4e0pksA",
+    "coverUrl": "https://i.scdn.co/image/ab67616d0000b27329596489437a095793e248b6"
+  },
+  {
+    "id": 2,
+    "title": "Walking On Sunshine",
+    "artist": "Katrina & The Waves",
+    "emotion": "Feliz",
+    "need": "Energía positiva",
+    "spotifyUrl": "https://open.spotify.com/track/05wIrZSwuaVWhcv5FfqeH0",
+    "coverUrl": "https://i.scdn.co/image/ab67616d0000b2734107b34b6911c42f02546452"
+  },
+  {
+    "id": 3,
+    "title": "Can't Stop the Feeling!",
+    "artist": "Justin Timberlake",
+    "emotion": "Feliz",
+    "need": "Bailar",
+    "spotifyUrl": "https://open.spotify.com/track/1WkMMavIMc4JZ8p0KB5NAo",
+    "coverUrl": "https://i.scdn.co/image/ab67616d0000b273874253401567154564539870"
+  },
+  {
+    "id": 4,
+    "title": "Someone Like You",
+    "artist": "Adele",
+    "emotion": "Triste",
+    "need": "Llorar",
+    "spotifyUrl": "https://open.spotify.com/track/4kflIGfjkRGfuF0TSJ35Ri",
+    "coverUrl": "https://i.scdn.co/image/ab67616d0000b2732118bf9b198b05a95ded6300"
+  },
+  {
+    "id": 5,
+    "title": "Fix You",
+    "artist": "Coldplay",
+    "emotion": "Triste",
+    "need": "Consuelo",
+    "spotifyUrl": "https://open.spotify.com/track/7LVHVU3tWfcxj5aiPFEW4Q",
+    "coverUrl": "https://i.scdn.co/image/ab67616d0000b273e2154d8122d25d6b46401b38"
+  },
+  {
+    "id": 6,
+    "title": "Skinny Love",
+    "artist": "Bon Iver",
+    "emotion": "Triste",
+    "need": "Introspección",
+    "spotifyUrl": "https://open.spotify.com/track/2cbic3TiUROloUAPq4cJBP",
+    "coverUrl": "https://i.scdn.co/image/ab67616d0000b2731c77507747e92823630f5519"
+  },
+  {
+    "id": 7,
+    "title": "Eye of the Tiger",
+    "artist": "Survivor",
+    "emotion": "Enérgico",
+    "need": "Entrenar",
+    "spotifyUrl": "https://open.spotify.com/track/2KH16WvePROWTs5CpScTXM",
+    "coverUrl": "https://i.scdn.co/image/ab67616d0000b273a067b86422b46765d7743477"
+  },
+  {
+    "id": 8,
+    "title": "Stronger",
+    "artist": "Kanye West",
+    "emotion": "Enérgico",
+    "need": "Poder",
+    "spotifyUrl": "https://open.spotify.com/track/4fzsfWzRhPawzqhX8Qt9F3",
+    "coverUrl": "https://i.scdn.co/image/ab67616d0000b273d9194aa18fa4c9362b47464f"
+  },
+  {
+    "id": 9,
+    "title": "Thunderstruck",
+    "artist": "AC/DC",
+    "emotion": "Enérgico",
+    "need": "Adrenalina",
+    "spotifyUrl": "https://open.spotify.com/track/57bgtoPSgt236HzfBOd8kj",
+    "coverUrl": "https://i.scdn.co/image/ab67616d0000b2730b51f8d91f3a21e8426361ae"
+  },
+  {
+    "id": 10,
+    "title": "Weightless",
+    "artist": "Marconi Union",
+    "emotion": "Tranquilo",
+    "need": "Relajación profunda",
+    "spotifyUrl": "https://open.spotify.com/track/6kkwzB6hXLIONkEk9JciA6",
+    "coverUrl": "https://i.scdn.co/image/ab67616d0000b273a0050d277d32c96c56783935"
+  },
+  {
+    "id": 11,
+    "title": "River Flows In You",
+    "artist": "Yiruma",
+    "emotion": "Tranquilo",
+    "need": "Paz",
+    "spotifyUrl": "https://open.spotify.com/track/65r94rVdiMwqXyQFEr3tqT",
+    "coverUrl": "https://i.scdn.co/image/ab67616d0000b27329d93e506649830536c47844"
+  },
+  {
+    "id": 12,
+    "title": "Clair de Lune",
+    "artist": "Claude Debussy",
+    "emotion": "Tranquilo",
+    "need": "Calma mental",
+    "spotifyUrl": "https://open.spotify.com/track/6N7JzjzD00FPMkF01xGib2",
+    "coverUrl": "https://i.scdn.co/image/ab67616d0000b27394c8680197d1945a17688c27"
+  },
+  {
+    "id": 13,
+    "title": "Yesterday",
+    "artist": "The Beatles",
+    "emotion": "Nostálgico",
+    "need": "Recordar",
+    "spotifyUrl": "https://open.spotify.com/track/3BQHpBn24C7QcyzULqEnEb",
+    "coverUrl": "https://i.scdn.co/image/ab67616d0000b273e3a4788106209b55239a5183"
+  },
+  {
+    "id": 14,
+    "title": "Landslide",
+    "artist": "Fleetwood Mac",
+    "emotion": "Nostálgico",
+    "need": "Reflexionar",
+    "spotifyUrl": "https://open.spotify.com/track/5ihS6UUlyQAfmp48eSkxuQ",
+    "coverUrl": "https://i.scdn.co/image/ab67616d0000b273a1441852d4b9b9c94576b5c7"
+  },
+  {
+    "id": 15,
+    "title": "1979",
+    "artist": "The Smashing Pumpkins",
+    "emotion": "Nostálgico",
+    "need": "Melancolía dulce",
+    "spotifyUrl": "https://open.spotify.com/track/5QLHGv0DfpeXLNFo7SFEy1",
+    "coverUrl": "https://i.scdn.co/image/ab67616d0000b273ad51b5c2c77d4838421d4289"
+  },
+  {
+    "id": 16,
+    "title": "Lose Yourself",
+    "artist": "Eminem",
+    "emotion": "Motivado",
+    "need": "Superación",
+    "spotifyUrl": "https://open.spotify.com/track/561jH07mF1jHuk7KlaeF0s",
+    "coverUrl": "https://i.scdn.co/image/ab67616d0000b2736ca5c90113b30c3c43ffb8f4"
+  },
+  {
+    "id": 17,
+    "title": "Don't Stop Believin'",
+    "artist": "Journey",
+    "emotion": "Motivado",
+    "need": "Esperanza",
+    "spotifyUrl": "https://open.spotify.com/track/4bHsxqR3GMrXTxEPLuK5ue",
+    "coverUrl": "https://i.scdn.co/image/ab67616d0000b273574c8273617154238715832a"
+  },
+  {
+    "id": 18,
+    "title": "Hall of Fame",
+    "artist": "The Script",
+    "emotion": "Motivado",
+    "need": "Logro",
+    "spotifyUrl": "https://open.spotify.com/track/6kJ8tK7vP6V92a0a2C6e6q",
+    "coverUrl": "https://i.scdn.co/image/ab67616d0000b27320c0282467d1656885354e60"
+  }
+]

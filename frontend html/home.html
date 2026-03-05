@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="es"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>EMOTIONS - Sintoniza con tu interior</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+          darkMode: "class",
+          theme: {
+            extend: {
+              colors: {
+                "primary": "#2397f6",
+                "background-light": "#f5f7f8",
+                "background-dark": "#0A0A0A",
+              },
+              fontFamily: {
+                "display": ["Inter", "sans-serif"]
+              },
+              borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+            },
+          },
+        }
+      </script>
+<style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .sound-wave-bg {
+            background: radial-gradient(circle at 50% 50%, rgba(35, 151, 246, 0.08) 0%, transparent 70%);
+        }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark text-slate-900 dark:text-slate-100 font-display">
+<!-- Sticky Navbar -->
+<nav class="sticky top-0 z-50 w-full border-b border-slate-200/10 bg-background-dark/80 backdrop-blur-md">
+<div class="mx-auto max-w-7xl px-6 h-20 flex items-center justify-between">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-3xl">graphic_eq</span>
+<span class="text-2xl font-black tracking-tighter text-slate-100">EMOTIONS</span>
+</div>
+<div class="hidden md:flex items-center gap-8">
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#">Inicio</a>
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#">Mood</a>
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#">Vídeos</a>
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#">Podcast</a>
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#">Explora</a>
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#">Transmedia</a>
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#">Sobre</a>
+</div>
+<button class="bg-primary hover:bg-primary/90 text-white px-6 py-2.5 rounded-full text-sm font-bold transition-all transform hover:scale-105">
+                Perfil
+            </button>
+</div>
+</nav>
+<!-- Hero Section -->
+<main class="relative min-h-[calc(100vh-80px)] flex flex-col items-center justify-center overflow-hidden sound-wave-bg px-6">
+<!-- Subtle Particles/Waves decoration -->
+<div class="absolute inset-0 z-0 pointer-events-none opacity-20">
+<div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full h-full" data-alt="Subtle particle pattern background" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCQQzWf0Qpzi-oJ2TesOqm0bAlXM5SM0ru35z4Pkrj0oydvYlq20GbnPUsUbcBDfJ2nOFMbHBogU_dFdDJTkb53HN5hmBdPP8lU9Rg2L_uCGqsOgGpe_saYbWyEfNh-L4oxQfudS157FJxtaXPTTpjZKkpXfJ-0YrmlVlGcvcOaYscJIRqHOYfPaXqRhljuBnzrnEsW6fpFRged2mVv_OnJJ7P1q2o7DUbJ942XmT7fJMjlAat8GgSwJ00hjqAdn2Fh2LvLVJ4MD4a0');"></div>
+</div>
+<div class="relative z-10 text-center max-w-4xl">
+<h1 class="text-7xl md:text-9xl font-black tracking-tighter text-white mb-6 uppercase">
+                EMOTIONS
+            </h1>
+<p class="text-xl md:text-2xl text-slate-400 font-light mb-12 tracking-wide">
+                ¿Cómo te sientes hoy?
+            </p>
+<button class="bg-white hover:bg-slate-100 text-black px-10 py-5 rounded-full text-lg font-bold transition-all shadow-2xl hover:shadow-primary/20 flex items-center gap-3 mx-auto">
+<span class="material-symbols-outlined">play_arrow</span>
+                Descubre tu mood
+            </button>
+</div>
+<!-- Scroll Indicator -->
+<div class="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 opacity-50">
+<span class="text-xs uppercase tracking-widest">Sintoniza</span>
+<span class="material-symbols-outlined animate-bounce">expand_more</span>
+</div>
+</main>
+<!-- Featured Section -->
+<section class="py-24 px-6 max-w-7xl mx-auto">
+<div class="flex flex-col md:flex-row justify-between items-end mb-12 gap-6">
+<div>
+<h2 class="text-4xl font-bold mb-4">Experiencia Transmedia</h2>
+<p class="text-slate-400 max-w-xl">Sumérgete en un ecosistema diseñado para conectar con tus sentimientos a través de diferentes formatos y canales digitales.</p>
+</div>
+<a class="text-primary font-bold flex items-center gap-2 hover:underline" href="#">
+                Ver todo <span class="material-symbols-outlined">arrow_forward</span>
+</a>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<!-- Music Card -->
+<div class="group relative aspect-[3/4] overflow-hidden rounded-2xl bg-slate-900 border border-slate-800 transition-all hover:border-primary/50">
+<div class="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-110 opacity-60" data-alt="Concert stage with blue atmospheric lighting" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDDktJP5hjdxXubq_vD_uuQXaFfhfoTU_JBZjOpxKqLsXt6HbTuDshMiaObgI2a67OG0UhxEDL7za6DzGL5bnGHoptY1CxpRFKIE3b6hvDppPI4XcLzy_soGmnezaI746Xum6S2vJYU3Yfl1mRAEBgdZSIp3aqmgcVx60TYiKE2_hXxB3Jft-ee16R7CrZ_O2NaNG12zlefNS_Roc75PVaRPsWQBNWaBacuLUq_ivt0cNGbCaUzP1k3kqRWp-uuYjvBJtWnGl8b8fSn');"></div>
+<div class="absolute inset-0 bg-gradient-to-t from-background-dark via-transparent to-transparent"></div>
+<div class="absolute bottom-0 p-8">
+<span class="material-symbols-outlined text-primary mb-4 text-3xl">music_note</span>
+<h3 class="text-2xl font-bold text-white mb-2">Música</h3>
+<p class="text-slate-300 text-sm">Curación de playlists exclusivas según tu estado de ánimo actual.</p>
+</div>
+</div>
+<!-- Video Card -->
+<div class="group relative aspect-[3/4] overflow-hidden rounded-2xl bg-slate-900 border border-slate-800 transition-all hover:border-primary/50">
+<div class="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-110 opacity-60" data-alt="Cinematic shot of natural landscapes at dawn" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCoAc3H-RQ2LGYh07a85HzI2fUlovdRmV7Wab0lPHihUuZlcxmEN6U8OanMv1BOLhKcQ2fZPkBcS-tyNbgmu2akSyOwnZag1Hk0-bb3FfTjxg7ZjQO6kXIN9UiWPyYZz0dqbd9cD7gGUxzN79mjr0NSJjI6DWS74B9slASdjB0gBaMvk31Nzp4Ufz1fwZ0pcHKguJorAOv3HsR1_MIsKeBFDuNcjhXASMb-HEvRd_A-fNA2afouU3vlvYRAYA7L-kUTYVfZR6jnLHu_');"></div>
+<div class="absolute inset-0 bg-gradient-to-t from-background-dark via-transparent to-transparent"></div>
+<div class="absolute bottom-0 p-8">
+<span class="material-symbols-outlined text-primary mb-4 text-3xl">videocam</span>
+<h3 class="text-2xl font-bold text-white mb-2">Visuales</h3>
+<p class="text-slate-300 text-sm">Piezas cinematográficas y visuales que resuenan con tu interior.</p>
+</div>
+</div>
+<!-- Stories Card -->
+<div class="group relative aspect-[3/4] overflow-hidden rounded-2xl bg-slate-900 border border-slate-800 transition-all hover:border-primary/50">
+<div class="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-110 opacity-60" data-alt="Close up of sound recording equipment" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCdFC0WkaSAKHisTvUKpLGzHb9zXMK--K_82Fg5T-4h4Qufk2IxUdVkNqAopLuIHtbyWR23JZbu7hT-y-cYgQ1ia174TirfoDXJfGzuKjfhFW2LZD2DjOzi2PEzRjbvVX5lkkvXLkGecXOJAjjyOMZCcfX2mYJuOMGYC60PBzqQpyyHj_4UsdwN7496veerlzyvEMqy2NPdZBqR3CHl2J4cfQT-Mz24oMsTEHFp0KktfFUqt_r_zU04s3Q1fmHKGvPNaukwIjI0GiW7');"></div>
+<div class="absolute inset-0 bg-gradient-to-t from-background-dark via-transparent to-transparent"></div>
+<div class="absolute bottom-0 p-8">
+<span class="material-symbols-outlined text-primary mb-4 text-3xl">mic</span>
+<h3 class="text-2xl font-bold text-white mb-2">Relatos</h3>
+<p class="text-slate-300 text-sm">Historias y podcasts que profundizan en la psicología humana.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Content Bar Section -->
+<section class="bg-slate-900/50 py-16">
+<div class="max-w-7xl mx-auto px-6">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-12">
+<div class="flex flex-col items-center text-center gap-4">
+<div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center">
+<span class="material-symbols-outlined text-primary text-3xl">mood</span>
+</div>
+<h4 class="font-bold">Tu Mood</h4>
+<p class="text-slate-400 text-sm leading-relaxed">Analizamos tu estado actual para ofrecerte el mejor contenido.</p>
+</div>
+<div class="flex flex-col items-center text-center gap-4">
+<div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center">
+<span class="material-symbols-outlined text-primary text-3xl">headphones</span>
+</div>
+<h4 class="font-bold">Podcast</h4>
+<p class="text-slate-400 text-sm leading-relaxed">Audio inmersivo 8D para una experiencia sensorial completa.</p>
+</div>
+<div class="flex flex-col items-center text-center gap-4">
+<div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center">
+<span class="material-symbols-outlined text-primary text-3xl">explore</span>
+</div>
+<h4 class="font-bold">Explora</h4>
+<p class="text-slate-400 text-sm leading-relaxed">Descubre nuevas emociones a través de nuestra biblioteca.</p>
+</div>
+<div class="flex flex-col items-center text-center gap-4">
+<div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center">
+<span class="material-symbols-outlined text-primary text-3xl">auto_fix_high</span>
+</div>
+<h4 class="font-bold">Intuitivo</h4>
+<p class="text-slate-400 text-sm leading-relaxed">Una interfaz diseñada para fluir con tus sentimientos.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Footer -->
+<footer class="border-t border-slate-800 py-12 px-6">
+<div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-8">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-2xl">graphic_eq</span>
+<span class="text-xl font-black tracking-tighter text-slate-100 uppercase">EMOTIONS</span>
+</div>
+<div class="flex gap-8 text-slate-400 text-sm">
+<a class="hover:text-white transition-colors" href="#">Privacidad</a>
+<a class="hover:text-white transition-colors" href="#">Términos</a>
+<a class="hover:text-white transition-colors" href="#">Contacto</a>
+</div>
+<div class="flex gap-4">
+<a class="w-10 h-10 rounded-full border border-slate-800 flex items-center justify-center hover:bg-slate-800 transition-colors" href="#">
+<span class="material-symbols-outlined text-lg">share</span>
+</a>
+<a class="w-10 h-10 rounded-full border border-slate-800 flex items-center justify-center hover:bg-slate-800 transition-colors" href="#">
+<span class="material-symbols-outlined text-lg">favorite</span>
+</a>
+</div>
+</div>
+<div class="text-center mt-8 text-slate-500 text-xs">
+            © 2024 EMOTIONS Experience. Sintoniza con tu interior.
+        </div>
+</footer>
+</body></html>

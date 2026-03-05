@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="es"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#2397f6",
+                        "background-light": "#f5f7f8",
+                        "background-dark": "#0A0A0A",
+                    },
+                    fontFamily: {
+                        "display": ["Inter", "sans-serif"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+<style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .video-card-hover:hover .play-overlay {
+            opacity: 1;
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark text-slate-900 dark:text-slate-100 min-h-screen">
+<!-- Sticky Navbar -->
+<header class="sticky top-0 z-50 w-full border-b border-slate-200 dark:border-slate-800 bg-background-light/80 dark:bg-background-dark/80 backdrop-blur-md">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="flex h-16 items-center justify-between">
+<!-- Logo -->
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-3xl">waves</span>
+<h2 class="text-xl font-bold tracking-tight text-slate-900 dark:text-white uppercase">EMOTIONS</h2>
+</div>
+<!-- Navigation Links -->
+<nav class="hidden md:flex items-center gap-6">
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#">Inicio</a>
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#">Mood</a>
+<a class="text-sm font-medium text-primary transition-colors" href="#">Vídeos</a>
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#">Podcast</a>
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#">Explora</a>
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#">Transmedia</a>
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#">Sobre</a>
+</nav>
+<!-- Search & Profile -->
+<div class="flex items-center gap-3">
+<button class="p-2 rounded-full hover:bg-slate-200 dark:hover:bg-slate-800 transition-colors">
+<span class="material-symbols-outlined text-xl">search</span>
+</button>
+<button class="p-2 rounded-full hover:bg-slate-200 dark:hover:bg-slate-800 transition-colors">
+<span class="material-symbols-outlined text-xl">account_circle</span>
+</button>
+</div>
+</div>
+</div>
+</header>
+<main class="max-w-7xl mx-auto px-4 py-12 sm:px-6 lg:px-8">
+<!-- Section Header -->
+<div class="text-center mb-12">
+<h1 class="text-4xl md:text-5xl font-bold text-slate-900 dark:text-white mb-4">Micro-documentales</h1>
+<p class="text-slate-600 dark:text-slate-400 max-w-2xl mx-auto">Explora la ciencia y el arte detrás de los sonidos que definen nuestras experiencias más profundas.</p>
+</div>
+<!-- Video Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12">
+<!-- Video Card 1 -->
+<div class="group cursor-pointer">
+<div class="relative aspect-video rounded-xl overflow-hidden border border-slate-200 dark:border-slate-800 video-card-hover bg-slate-900">
+<div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent z-10"></div>
+<img alt="Joyful music visualization" class="w-full h-full object-cover opacity-60 group-hover:scale-105 transition-transform duration-500" data-alt="Vibrant abstract lights representing energy and joy" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBREvdXhcw3VmHK6t1TRWDPr0KQGZvQIPcJ_QQZGd4AjcRE8ABRYEMw_EOe2-5bCTOASKVePOz-TLPDjVQxxr6_zFHw84po3I2buuVK8yQD-j11ulF98WNRqBsnlIZHGZxxscpgO3qEXFjitNLyw5rPkR-Ys6q22tt6zZnMSL5AiPAWEPZiwNKp5BOVzUSrmIfUEpG6qleTKOnQTvYVLjhSgYa4zGMuwmtrJ7JBNktUnMW4JsmJ-mVgmg-hw7MGMtER5HwJFH9l-bNN"/>
+<!-- Play Overlay -->
+<div class="absolute inset-0 flex items-center justify-center z-20">
+<div class="play-overlay flex items-center justify-center w-16 h-16 rounded-full bg-primary/90 text-white transition-all duration-300 shadow-lg shadow-primary/20">
+<span class="material-symbols-outlined text-4xl fill-1">play_arrow</span>
+</div>
+</div>
+<!-- Badge -->
+<div class="absolute bottom-4 right-4 z-20 bg-black/60 backdrop-blur-md px-2 py-1 rounded-md text-xs font-bold text-white tracking-wider border border-white/10">
+                        1:45
+                    </div>
+</div>
+<div class="mt-5 space-y-2">
+<h3 class="text-xl font-bold text-slate-900 dark:text-white group-hover:text-primary transition-colors">The Power of Joy</h3>
+<p class="text-slate-600 dark:text-slate-400 line-clamp-2 leading-relaxed">
+                        A deep dive into how upbeat rhythms affect our daily dopamine levels and overall mood, exploring the neurological connection to happiness.
+                    </p>
+</div>
+</div>
+<!-- Video Card 2 -->
+<div class="group cursor-pointer">
+<div class="relative aspect-video rounded-xl overflow-hidden border border-slate-200 dark:border-slate-800 video-card-hover bg-slate-900">
+<div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent z-10"></div>
+<img alt="Cinematic piano scene" class="w-full h-full object-cover opacity-60 group-hover:scale-105 transition-transform duration-500" data-alt="Moody atmosphere with a piano in a dimly lit room" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCF8L3-qT8WiqMRJz5P2VFYC7J8Bk7Ifhz2yCXJ2ASZKl2TdS6lKvlXp9_EPc-da74LjJbla3AsXjdnETb4kmGcnJOTQETbMapKxwvPazsAs9HFIq-dMSzYJ8z6qPxfjQo211DZWpwT4ODyV296uIMocXz2T4NcMG-ctptN_iHkGO1k9CvMlv2P_sW4UZVsJRgEyP0mANOqE5NBzyFJg1AWV6bmWblEJERekmRScubHQhwqLERswqSZskgT--gQTOfgX18Q8b_yTQPB"/>
+<!-- Play Overlay -->
+<div class="absolute inset-0 flex items-center justify-center z-20">
+<div class="play-overlay flex items-center justify-center w-16 h-16 rounded-full bg-primary/90 text-white transition-all duration-300 shadow-lg shadow-primary/20">
+<span class="material-symbols-outlined text-4xl fill-1">play_arrow</span>
+</div>
+</div>
+<!-- Badge -->
+<div class="absolute bottom-4 right-4 z-20 bg-black/60 backdrop-blur-md px-2 py-1 rounded-md text-xs font-bold text-white tracking-wider border border-white/10">
+                        2:30
+                    </div>
+</div>
+<div class="mt-5 space-y-2">
+<h3 class="text-xl font-bold text-slate-900 dark:text-white group-hover:text-primary transition-colors">Exploring Melancholy</h3>
+<p class="text-slate-600 dark:text-slate-400 line-clamp-2 leading-relaxed">
+                        Understanding the beauty of sad music and why we find comfort in somber melodies during our most reflective moments.
+                    </p>
+</div>
+</div>
+</div>
+<!-- Pagination or Load More (Optional Aesthetic Addition) -->
+<div class="mt-16 flex justify-center">
+<button class="flex items-center gap-2 px-6 py-3 rounded-full border border-slate-200 dark:border-slate-800 hover:bg-slate-100 dark:hover:bg-slate-900 transition-all font-semibold text-sm">
+                Cargar más vídeos
+                <span class="material-symbols-outlined text-lg">expand_more</span>
+</button>
+</div>
+</main>
+<!-- Simple Footer -->
+<footer class="mt-20 border-t border-slate-200 dark:border-slate-800 py-10">
+<div class="max-w-7xl mx-auto px-4 flex flex-col md:flex-row justify-between items-center gap-6">
+<div class="flex items-center gap-2 grayscale opacity-50">
+<span class="material-symbols-outlined text-xl">waves</span>
+<span class="text-sm font-bold uppercase tracking-widest">EMOTIONS</span>
+</div>
+<div class="flex gap-8 text-slate-500 dark:text-slate-500 text-sm">
+<a class="hover:text-primary transition-colors" href="#">Privacidad</a>
+<a class="hover:text-primary transition-colors" href="#">Términos</a>
+<a class="hover:text-primary transition-colors" href="#">Ayuda</a>
+</div>
+<div class="text-slate-500 dark:text-slate-500 text-xs">
+                © 2024 Emotions Music App. Todos los derechos reservados.
+            </div>
+</div>
+</footer>
+</body></html>

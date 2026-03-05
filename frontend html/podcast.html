@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#2397f6",
+                        "background-light": "#f5f7f8",
+                        "background-dark": "#0A0A0A",
+                        "surface": "#161616",
+                        "surface-accent": "#222222",
+                    },
+                    fontFamily: {
+                        "display": ["Inter", "sans-serif"]
+                    },
+                    borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+                },
+            },
+        }
+    </script>
+<style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #0A0A0A;
+        }
+        .progress-bar {
+            height: 4px;
+            background: rgba(255,255,255,0.1);
+        }
+        .progress-fill {
+            height: 4px;
+            width: 35%;
+            background: #2397f6;
+        }
+    </style>
+</head>
+<body class="bg-background-dark text-slate-100 font-display">
+<!-- Sticky Navbar -->
+<nav class="sticky top-0 z-50 w-full border-b border-white/10 bg-background-dark/80 backdrop-blur-md">
+<div class="mx-auto flex max-w-5xl items-center justify-between px-6 py-4">
+<div class="flex items-center gap-3">
+<div class="flex h-8 w-8 items-center justify-center rounded-lg bg-primary text-white">
+<span class="material-symbols-outlined text-xl">graphic_eq</span>
+</div>
+<h1 class="text-xl font-bold tracking-tighter text-white">EMOTIONS</h1>
+</div>
+<div class="flex items-center gap-6">
+<button class="text-slate-400 hover:text-white transition-colors">
+<span class="material-symbols-outlined">search</span>
+</button>
+<button class="flex h-10 w-10 items-center justify-center rounded-full bg-surface-accent border border-white/5 overflow-hidden">
+<span class="material-symbols-outlined text-slate-300">person</span>
+</button>
+</div>
+</div>
+</nav>
+<main class="mx-auto max-w-4xl px-6 py-12">
+<!-- Hero Section: Cover Art & Title -->
+<div class="flex flex-col items-center text-center">
+<div class="relative mb-10 aspect-square w-full max-w-[420px] overflow-hidden rounded-xl shadow-2xl shadow-primary/10">
+<div class="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent"></div>
+<img alt="Podcast cover art showing abstract sound waves" class="h-full w-full object-cover" data-alt="Abstract vibrant sound waves with blue glowing pulses" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCKGtScKVWWvsI59YzCnUmqseF1x4hNaRkBPuS7vSs36za7FDi173deze-uzgl57fR8lHP8w4Hq5_ysOHWmAVH-9dqNp9yAbv6NwAHBeMJCyQOner8zh2HCrF4CVhsDsCXsYCr-k57r376X1J1Vx9DfwP39EzPR1fg0rt_c8Kyb92QH9FuTrtqKkrGMiIDW6deeEDRJHHqRD7AACUGHo4kxpCvEEcXL555DvPi1qKtr29JaoiHSnpYEz8I-DRn4zyC-kT0wg9pyPK4I"/>
+</div>
+<div class="space-y-2">
+<p class="text-sm font-semibold tracking-widest text-primary uppercase">Episode 42</p>
+<h2 class="text-4xl md:text-5xl font-extrabold tracking-tight text-white lg:text-6xl">
+                    El Poder de la Resonancia
+                </h2>
+<p class="mt-4 text-lg text-slate-400">EMOTIONS Originals • 48 min</p>
+</div>
+</div>
+<!-- Audio Player Component -->
+<div class="mt-12 w-full rounded-2xl bg-surface p-8 shadow-xl ring-1 ring-white/10">
+<div class="flex flex-col gap-6">
+<!-- Progress Bar -->
+<div class="group relative cursor-pointer pt-4">
+<div class="progress-bar rounded-full overflow-hidden">
+<div class="progress-fill relative">
+<div class="absolute right-0 top-1/2 h-3 w-3 -translate-y-1/2 rounded-full bg-primary shadow-lg ring-2 ring-white"></div>
+</div>
+</div>
+<div class="mt-3 flex justify-between text-xs font-medium text-slate-500">
+<span>16:42</span>
+<span>48:00</span>
+</div>
+</div>
+<!-- Controls -->
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-6">
+<button class="text-slate-400 hover:text-primary transition-colors">
+<span class="material-symbols-outlined text-2xl">shuffle</span>
+</button>
+<button class="text-slate-100 hover:text-primary transition-colors">
+<span class="material-symbols-outlined text-3xl">skip_previous</span>
+</button>
+</div>
+<button class="flex h-16 w-16 items-center justify-center rounded-full bg-primary text-white shadow-lg shadow-primary/30 transition-transform active:scale-95">
+<span class="material-symbols-outlined text-4xl leading-none">play_arrow</span>
+</button>
+<div class="flex items-center gap-6">
+<button class="text-slate-100 hover:text-primary transition-colors">
+<span class="material-symbols-outlined text-3xl">skip_next</span>
+</button>
+<button class="text-slate-400 hover:text-primary transition-colors">
+<span class="material-symbols-outlined text-2xl">repeat</span>
+</button>
+</div>
+</div>
+<!-- Footer Player Stats -->
+<div class="flex items-center justify-between border-t border-white/5 pt-4">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-slate-400 text-sm">devices</span>
+<span class="text-xs text-slate-400">Available on all devices</span>
+</div>
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-slate-400 text-xl">volume_up</span>
+<div class="w-24 h-1 bg-white/10 rounded-full">
+<div class="w-3/4 h-full bg-slate-400 rounded-full"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Content Section -->
+<div class="mt-16 grid grid-cols-1 gap-12 lg:grid-cols-3">
+<!-- Description -->
+<div class="lg:col-span-2 space-y-6">
+<h3 class="text-2xl font-bold text-white">About this episode</h3>
+<p class="text-slate-400 leading-relaxed">
+                    Explore the profound impact of acoustic resonance on human emotion and spatial awareness. In this episode, we dive deep into how frequencies interact with the architecture of our minds and the physical spaces we inhabit. From ancient cathedrals to modern digital landscapes, resonance is the invisible thread that connects sound to feeling.
+                </p>
+<div class="flex gap-4">
+<span class="rounded-full bg-primary/10 px-4 py-1 text-xs font-semibold text-primary ring-1 ring-primary/30 uppercase tracking-wide">Music Theory</span>
+<span class="rounded-full bg-primary/10 px-4 py-1 text-xs font-semibold text-primary ring-1 ring-primary/30 uppercase tracking-wide">Mindfulness</span>
+</div>
+</div>
+<!-- Accordion Topics -->
+<div class="space-y-4">
+<h3 class="text-lg font-bold text-white mb-6">In this episode</h3>
+<div class="group rounded-xl border border-white/10 bg-surface p-4 transition-all hover:border-primary/50">
+<div class="flex items-center justify-between">
+<span class="text-sm font-medium text-slate-300">00:00 - Introduction</span>
+<span class="material-symbols-outlined text-slate-500">expand_more</span>
+</div>
+</div>
+<div class="group rounded-xl border border-white/10 bg-surface p-4 transition-all hover:border-primary/50">
+<div class="flex items-center justify-between">
+<span class="text-sm font-medium text-slate-300">12:45 - The Science of Vibration</span>
+<span class="material-symbols-outlined text-slate-500">expand_more</span>
+</div>
+</div>
+<div class="group rounded-xl border border-white/10 bg-surface p-4 transition-all hover:border-primary/50">
+<div class="flex items-center justify-between">
+<span class="text-sm font-medium text-slate-300">25:30 - Digital Resonance</span>
+<span class="material-symbols-outlined text-slate-500">expand_more</span>
+</div>
+</div>
+<div class="group rounded-xl border border-white/10 bg-surface p-4 transition-all hover:border-primary/50">
+<div class="flex items-center justify-between">
+<span class="text-sm font-medium text-slate-300">40:15 - Closing Thoughts</span>
+<span class="material-symbols-outlined text-slate-500">expand_more</span>
+</div>
+</div>
+</div>
+</div>
+</main>
+<footer class="mt-24 border-t border-white/5 bg-surface-accent py-12">
+<div class="mx-auto max-w-5xl px-6 text-center">
+<p class="text-sm text-slate-500">© 2024 EMOTIONS Music App. Designed for the soul.</p>
+</div>
+</footer>
+</body></html>
