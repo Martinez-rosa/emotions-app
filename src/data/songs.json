@@ -6,7 +6,8 @@
     "emotion": "Feliz",
     "need": "Sentirse bien",
     "spotifyUrl": "https://open.spotify.com/track/60nZcImufyMA1KT4e0pksA",
-    "coverUrl": "https://i.scdn.co/image/ab67616d0000b27329596489437a095793e248b6"
+    "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/76/ff/5e/76ff5ee0-7ab4-2ac2-2598-486a9ccc06e1/886444516877.jpg/600x600bb.jpg",
+    "videoId": "4m-_cqRsoqA"
   },
   {
     "id": 2,
@@ -15,7 +16,8 @@
     "emotion": "Feliz",
     "need": "Energía positiva",
     "spotifyUrl": "https://open.spotify.com/track/05wIrZSwuaVWhcv5FfqeH0",
-    "coverUrl": "https://i.scdn.co/image/ab67616d0000b2734107b34b6911c42f02546452"
+    "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/cc/0b/bd/cc0bbd86-f930-2f01-1e7d-47574fc36723/13ULAIM49572.rgb.jpg/600x600bb.jpg",
+    "videoId": "iPUmE-tne5U"
   },
   {
     "id": 3,
@@ -24,141 +26,577 @@
     "emotion": "Feliz",
     "need": "Bailar",
     "spotifyUrl": "https://open.spotify.com/track/1WkMMavIMc4JZ8p0KB5NAo",
-    "coverUrl": "https://i.scdn.co/image/ab67616d0000b273874253401567154564539870"
+    "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/68/19/43/68194388-efa7-3afe-8a15-a4c3eebef1f6/886445915211.jpg/600x600bb.jpg",
+    "videoId": "KbyPok-3dio"
   },
   {
     "id": 4,
+    "title": "Uptown Funk",
+    "artist": "Mark Ronson ft. Bruno Mars",
+    "emotion": "Feliz",
+    "need": "Bailar",
+    "spotifyUrl": "https://open.spotify.com/track/32OlwSTjB3uMR31Z6pS6A7",
+    "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/7e/30/c5/7e30c572-aa47-5f7b-c6fd-42d50cd2c56d/886444959797.jpg/600x600bb.jpg",
+    "videoId": "7Ya2U8XN_Zw"
+  },
+  {
+    "id": 5,
+    "title": "Best Day Of My Life",
+    "artist": "American Authors",
+    "emotion": "Feliz",
+    "need": "Sentirse bien",
+    "spotifyUrl": "https://open.spotify.com/track/5HrojYim1oTV9v9St96BoE",
+    "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/fe/6c/79/fe6c7944-593e-43b8-5ca2-3ca61cdbd393/14UMGIM01329.rgb.jpg/600x600bb.jpg",
+    "videoId": "wutzv7JjX7k"
+  },
+  {
+    "id": 6,
+    "title": "Good Vibrations",
+    "artist": "The Beach Boys",
+    "emotion": "Feliz",
+    "need": "Energía positiva",
+    "spotifyUrl": "https://open.spotify.com/track/5t9KYpSgc3XwUnp4m7q9Dx",
+    "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/94/62/6c/94626c44-4657-739e-e639-39ae55e6d2cc/13UABIM03827.rgb.jpg/600x600bb.jpg",
+    "videoId": "Eab_beh07HU"
+  },
+  {
+    "id": 7,
+    "title": "Don't Worry Be Happy",
+    "artist": "Bobby McFerrin",
+    "emotion": "Feliz",
+    "need": "Sentirse bien",
+    "spotifyUrl": "https://open.spotify.com/track/4Yh9mS7Z6I0jS6I0jS6I0j",
+    "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/3b/77/2c/3b772c66-8d08-fa73-a2d8-103e55b01eb3/13UABIM59244.rgb.jpg/600x600bb.jpg",
+    "videoId": "JKZ92za6Dbo"
+  },
+  {
+    "id": 8,
+    "title": "I Got You (I Feel Good)",
+    "artist": "James Brown",
+    "emotion": "Feliz",
+    "need": "Bailar",
+    "spotifyUrl": "https://open.spotify.com/track/57bgtoPSgt236HzfBOd8kj",
+    "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/8a/76/04/8a760498-ce95-c1f3-4bff-958362821728/14UMGIM28794.rgb.jpg/600x600bb.jpg",
+    "videoId": "inNTZTINTtM"
+  },
+  {
+    "id": 9,
+    "title": "Lovely Day",
+    "artist": "Bill Withers",
+    "emotion": "Feliz",
+    "need": "Energía positiva",
+    "spotifyUrl": "https://open.spotify.com/track/4D7BCYAyIPYp79f9f9f9f9",
+    "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/3a/93/40/3a9340a1-73f7-5bbb-86a2-15a4ba20acea/884977735840.jpg/600x600bb.jpg",
+    "videoId": "bEeaS6fuUoA"
+  },
+  {
+    "id": 10,
+    "title": "Sunday Best",
+    "artist": "Surfaces",
+    "emotion": "Feliz",
+    "need": "Sentirse bien",
+    "spotifyUrl": "https://open.spotify.com/track/1Cv1v1v1v1v1v1v1v1v1v1",
+    "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/ed/cd/ee/edcdeef4-bc7c-a53d-7e2c-64c158c9a89a/842812115431.jpg/600x600bb.jpg",
+    "videoId": "Xt3m04Tscc8"
+  },
+  {
+    "id": 11,
     "title": "Someone Like You",
     "artist": "Adele",
     "emotion": "Triste",
     "need": "Llorar",
     "spotifyUrl": "https://open.spotify.com/track/4kflIGfjkRGfuF0TSJ35Ri",
-    "coverUrl": "https://i.scdn.co/image/ab67616d0000b2732118bf9b198b05a95ded6300"
+    "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/eb/ca/25/ebca2596-cd1e-b295-91a3-771c868d0a79/191404113868.png/600x600bb.jpg",
+    "videoId": "22c3_LoIfZQ"
   },
   {
-    "id": 5,
+    "id": 12,
     "title": "Fix You",
     "artist": "Coldplay",
     "emotion": "Triste",
     "need": "Consuelo",
     "spotifyUrl": "https://open.spotify.com/track/7LVHVU3tWfcxj5aiPFEW4Q",
-    "coverUrl": "https://i.scdn.co/image/ab67616d0000b273e2154d8122d25d6b46401b38"
+    "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/0c/82/48/0c8248a8-4a5b-d30d-8056-f32d650d2fc9/190295978068.jpg/600x600bb.jpg",
+    "videoId": "k4V3Mo61fJM"
   },
   {
-    "id": 6,
+    "id": 13,
     "title": "Skinny Love",
     "artist": "Bon Iver",
     "emotion": "Triste",
     "need": "Introspección",
     "spotifyUrl": "https://open.spotify.com/track/2cbic3TiUROloUAPq4cJBP",
-    "coverUrl": "https://i.scdn.co/image/ab67616d0000b2731c77507747e92823630f5519"
+    "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/21/2f/ea/212fea18-5fdc-ba4d-5dd7-1b07aaa88b67/656605211565.tif/600x600bb.jpg",
+    "videoId": "95FyXUHv8hk"
   },
   {
-    "id": 7,
+    "id": 14,
+    "title": "The Night We Met",
+    "artist": "Lord Huron",
+    "emotion": "Triste",
+    "need": "Introspección",
+    "spotifyUrl": "https://open.spotify.com/track/3hRV0jL3vUpR20Q97uS6bi",
+    "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/55/41/4a/55414a18-861a-79d1-e575-5bf8cf205dbe/886445056839_Cover.jpg/600x600bb.jpg",
+    "videoId": "KtlgYxa6BMU"
+  },
+  {
+    "id": 15,
+    "title": "All I Want",
+    "artist": "Kodaline",
+    "emotion": "Triste",
+    "need": "Llorar",
+    "spotifyUrl": "https://open.spotify.com/track/0NlGoUyOJSuSHmngo8YV7S",
+    "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/90/07/87/90078751-1dbb-3e85-50f0-d8b40e5655aa/886443897267.jpg/600x600bb.jpg",
+    "videoId": "KngoH3VGT-c"
+  },
+  {
+    "id": 16,
+    "title": "Yesterday",
+    "artist": "The Beatles",
+    "emotion": "Triste",
+    "need": "Consuelo",
+    "spotifyUrl": "https://open.spotify.com/track/3BQHpBn24C7QcyzULqEnEb",
+    "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/1a/19/db/1a19db26-17ad-b986-11a9-f72ac7a6194b/18UMGIM31214.rgb.jpg/600x600bb.jpg",
+    "videoId": "NrgmdOz227I"
+  },
+  {
+    "id": 17,
+    "title": "Creep",
+    "artist": "Radiohead",
+    "emotion": "Triste",
+    "need": "Introspección",
+    "spotifyUrl": "https://open.spotify.com/track/7u9KYpSgc3XwUnp4m7q9Dx",
+    "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/28/7a/7c/287a7ca9-ed95-1a21-e3bb-4559a1a0ac0e/191404134351.png/600x600bb.jpg",
+    "videoId": "fAuT8_dboWo"
+  },
+  {
+    "id": 18,
+    "title": "Stay With Me",
+    "artist": "Sam Smith",
+    "emotion": "Triste",
+    "need": "Llorar",
+    "spotifyUrl": "https://open.spotify.com/track/57bgtoPSgt236HzfBOd8kj",
+    "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/80/74/b6/8074b6bc-387f-6cc9-5ede-92b76396ad5f/13UAEIM58958.rgb.jpg/600x600bb.jpg",
+    "videoId": "bXDSR4GggUU"
+  },
+  {
+    "id": 19,
+    "title": "Tears in Heaven",
+    "artist": "Eric Clapton",
+    "emotion": "Triste",
+    "need": "Consuelo",
+    "spotifyUrl": "https://open.spotify.com/track/4D7BCYAyIPYp79f9f9f9f9",
+    "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/b4/a8/99/b4a89922-4b67-104e-f85c-d6d478303e65/93624755364.jpg/600x600bb.jpg",
+    "videoId": "p3RklAt88xM"
+  },
+  {
+    "id": 20,
+    "title": "Hallelujah",
+    "artist": "Jeff Buckley",
+    "emotion": "Triste",
+    "need": "Introspección",
+    "spotifyUrl": "https://open.spotify.com/track/1Cv1v1v1v1v1v1v1v1v1v1",
+    "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/26/d6/e3/26d6e339-a7a9-d61e-1b5f-0852a5515a55/886445517880.jpg/600x600bb.jpg",
+    "videoId": "y8AWFf7EAc4"
+  },
+  {
+    "id": 21,
     "title": "Eye of the Tiger",
     "artist": "Survivor",
     "emotion": "Enérgico",
     "need": "Entrenar",
     "spotifyUrl": "https://open.spotify.com/track/2KH16WvePROWTs5CpScTXM",
-    "coverUrl": "https://i.scdn.co/image/ab67616d0000b273a067b86422b46765d7743477"
+    "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/f9/02/8f/f9028f63-7a55-235e-f789-1e8946430fa2/614223201122.jpg/600x600bb.jpg",
+    "videoId": "XxxfQ7-aMrE"
   },
   {
-    "id": 8,
+    "id": 22,
     "title": "Stronger",
     "artist": "Kanye West",
     "emotion": "Enérgico",
     "need": "Poder",
     "spotifyUrl": "https://open.spotify.com/track/4fzsfWzRhPawzqhX8Qt9F3",
-    "coverUrl": "https://i.scdn.co/image/ab67616d0000b273d9194aa18fa4c9362b47464f"
+    "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/39/25/2d/39252d65-2d50-b991-0962-f7a98a761271/00602517483507.rgb.jpg/600x600bb.jpg",
+    "videoId": "3mwiO5st-us"
   },
   {
-    "id": 9,
+    "id": 23,
     "title": "Thunderstruck",
     "artist": "AC/DC",
     "emotion": "Enérgico",
     "need": "Adrenalina",
     "spotifyUrl": "https://open.spotify.com/track/57bgtoPSgt236HzfBOd8kj",
-    "coverUrl": "https://i.scdn.co/image/ab67616d0000b2730b51f8d91f3a21e8426361ae"
+    "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/bb/a2/f0/bba2f0d7-4d9e-c617-d49e-3ae02fd5d440/dj.xbkfgllk.jpg/600x600bb.jpg",
+    "videoId": "v2AC41dglnM"
   },
   {
-    "id": 10,
+    "id": 24,
+    "title": "Can't Hold Us",
+    "artist": "Macklemore",
+    "emotion": "Enérgico",
+    "need": "Adrenalina",
+    "spotifyUrl": "https://open.spotify.com/track/3bidSdyvU1fWgq3m9S8I7R",
+    "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/91/c1/b5/91c1b5cc-d4f1-da61-d3dc-2dd93e6b0a7d/707541525299.jpg/600x600bb.jpg",
+    "videoId": "VG3JsmOmDqw"
+  },
+  {
+    "id": 25,
+    "title": "Don't Stop Me Now",
+    "artist": "Queen",
+    "emotion": "Enérgico",
+    "need": "Poder",
+    "spotifyUrl": "https://open.spotify.com/track/5T8EDUDqKjg38CdyqxZp6Y",
+    "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/4d/08/2a/4d082a9e-7898-1aa1-a02f-339810058d9e/14DMGIM05632.rgb.jpg/600x600bb.jpg",
+    "videoId": "MHi9mKq0slA"
+  },
+  {
+    "id": 26,
+    "title": "Seven Nation Army",
+    "artist": "The White Stripes",
+    "emotion": "Enérgico",
+    "need": "Entrenar",
+    "spotifyUrl": "https://open.spotify.com/track/7u9KYpSgc3XwUnp4m7q9Dx",
+    "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/07/25/09/0725098a-09f4-f240-e551-94384a590371/886448799009.jpg/600x600bb.jpg",
+    "videoId": "CBEJo18auXE"
+  },
+  {
+    "id": 27,
+    "title": "POWER",
+    "artist": "Kanye West",
+    "emotion": "Enérgico",
+    "need": "Poder",
+    "spotifyUrl": "https://open.spotify.com/track/57bgtoPSgt236HzfBOd8kj",
+    "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/d1/74/da/d174dacf-5782-dfe2-19f7-ce037dcd0237/00602527584935.rgb.jpg/600x600bb.jpg",
+    "videoId": "chPDTUjnWgA"
+  },
+  {
+    "id": 28,
+    "title": "Pump It",
+    "artist": "Black Eyed Peas",
+    "emotion": "Enérgico",
+    "need": "Adrenalina",
+    "spotifyUrl": "https://open.spotify.com/track/4D7BCYAyIPYp79f9f9f9f9",
+    "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b6/67/39/b6673987-b974-c579-325d-6df068e3eadc/25UMGIM77774.rgb.jpg/600x600bb.jpg",
+    "videoId": "BHfXhiUgnQ0"
+  },
+  {
+    "id": 29,
+    "title": "Level Up",
+    "artist": "Ciara",
+    "emotion": "Enérgico",
+    "need": "Entrenar",
+    "spotifyUrl": "https://open.spotify.com/track/1Cv1v1v1v1v1v1v1v1v1v1",
+    "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c9/51/af/c951af0e-9857-b9aa-2fab-d3f3f4e1bf7b/190296900709.jpg/600x600bb.jpg",
+    "videoId": "Dh-ULbQmmF8"
+  },
+  {
+    "id": 30,
+    "title": "Lose Yourself",
+    "artist": "Eminem",
+    "emotion": "Enérgico",
+    "need": "Poder",
+    "spotifyUrl": "https://open.spotify.com/track/561jH07mF1jHuk7KlaeF0s",
+    "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/08/23/fc/0823fcd9-cb44-695b-32bf-b3bf51d9f800/00606949351229.rgb.jpg/600x600bb.jpg",
+    "videoId": "xFYQQPAOz7Y"
+  },
+  {
+    "id": 31,
     "title": "Weightless",
     "artist": "Marconi Union",
     "emotion": "Tranquilo",
     "need": "Relajación profunda",
     "spotifyUrl": "https://open.spotify.com/track/6kkwzB6hXLIONkEk9JciA6",
-    "coverUrl": "https://i.scdn.co/image/ab67616d0000b273a0050d277d32c96c56783935"
+    "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/c3/3a/d6/c33ad6a3-ec91-62e4-0912-d4a873d4fed0/cover.jpg/600x600bb.jpg",
+    "videoId": "UfcAVejslrU"
   },
   {
-    "id": 11,
+    "id": 32,
     "title": "River Flows In You",
     "artist": "Yiruma",
     "emotion": "Tranquilo",
     "need": "Paz",
     "spotifyUrl": "https://open.spotify.com/track/65r94rVdiMwqXyQFEr3tqT",
-    "coverUrl": "https://i.scdn.co/image/ab67616d0000b27329d93e506649830536c47844"
+    "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/5f/f4/9b/5ff49b8c-d0bb-3748-14f4-131edfb332ce/first_love_3000.jpg/600x600bb.jpg",
+    "videoId": "92IlKBhKbWM"
   },
   {
-    "id": 12,
+    "id": 33,
     "title": "Clair de Lune",
     "artist": "Claude Debussy",
     "emotion": "Tranquilo",
     "need": "Calma mental",
     "spotifyUrl": "https://open.spotify.com/track/6N7JzjzD00FPMkF01xGib2",
-    "coverUrl": "https://i.scdn.co/image/ab67616d0000b27394c8680197d1945a17688c27"
+    "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music/5f/f2/dc/mzi.cjpwuohz.jpg/600x600bb.jpg",
+    "videoId": "ZlM2EB9aE3A"
   },
   {
-    "id": 13,
+    "id": 34,
+    "title": "Sunset Lover",
+    "artist": "Petit Biscuit",
+    "emotion": "Tranquilo",
+    "need": "Paz",
+    "spotifyUrl": "https://open.spotify.com/track/0hNnWvR9nDE0tL7KCqZdjC",
+    "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/78/1c/93/781c934a-c233-cfce-39db-31f7284969b4/cover.jpg/600x600bb.jpg",
+    "videoId": "ocRqQcRapQQ"
+  },
+  {
+    "id": 35,
+    "title": "Gymnopédie No. 1",
+    "artist": "Erik Satie",
+    "emotion": "Tranquilo",
+    "need": "Calma mental",
+    "spotifyUrl": "https://open.spotify.com/track/5NGtSfsXgsdcun0p9IS7Y4",
+    "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/d9/6f/d5/d96fd59f-22a4-9c42-7ce4-1d0aafa841d2/752470763120_cover.jpg/600x600bb.jpg",
+    "videoId": "eMnxjdGTK4w"
+  },
+  {
+    "id": 36,
+    "title": "Lullaby",
+    "artist": "Johannes Brahms",
+    "emotion": "Tranquilo",
+    "need": "Calma mental",
+    "spotifyUrl": "https://open.spotify.com/track/7u9KYpSgc3XwUnp4m7q9Dx",
+    "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/7c/64/a3/7c64a3f6-0d06-2152-5c9d-0baca35c38a2/5059805117869_cover.jpg/600x600bb.jpg",
+    "videoId": "c_B4sxUZeV4"
+  },
+  {
+    "id": 37,
+    "title": "Spiegel im Spiegel",
+    "artist": "Arvo Pärt",
+    "emotion": "Tranquilo",
+    "need": "Relajación profunda",
+    "spotifyUrl": "https://open.spotify.com/track/57bgtoPSgt236HzfBOd8kj",
+    "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music5/v4/0c/b8/39/0cb83963-8362-6e23-57ae-3130226f76e0/dj.nmdgayfo.jpg/600x600bb.jpg",
+    "videoId": "TJ6Mzvh3XCc"
+  },
+  {
+    "id": 38,
+    "title": "Watermark",
+    "artist": "Enya",
+    "emotion": "Tranquilo",
+    "need": "Paz",
+    "spotifyUrl": "https://open.spotify.com/track/4D7BCYAyIPYp79f9f9f9f9",
+    "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/9e/a4/e7/9ea4e751-f374-4173-2aca-faea06440e0c/s06.pnpmefxw.jpg/600x600bb.jpg",
+    "videoId": "ECF4SK95gIA"
+  },
+  {
+    "id": 39,
+    "title": "Ocean Eyes",
+    "artist": "Billie Eilish",
+    "emotion": "Tranquilo",
+    "need": "Relajación profunda",
+    "spotifyUrl": "https://open.spotify.com/track/1Cv1v1v1v1v1v1v1v1v1v1",
+    "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/02/1d/30/021d3036-5503-3ed3-df00-882f2833a6ae/17UM1IM17026.rgb.jpg/600x600bb.jpg",
+    "videoId": "d--DyK0wtYo"
+  },
+  {
+    "id": 40,
+    "title": "Nuvole Bianche",
+    "artist": "Ludovico Einaudi",
+    "emotion": "Tranquilo",
+    "need": "Calma mental",
+    "spotifyUrl": "https://open.spotify.com/track/561jH07mF1jHuk7KlaeF0s",
+    "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/08/ce/82/08ce82e8-266e-f49e-563e-345af7fd72d5/06UMGIM59381.rgb.jpg/600x600bb.jpg",
+    "videoId": "CQ8zglIXZi8"
+  },
+  {
+    "id": 41,
     "title": "Yesterday",
     "artist": "The Beatles",
     "emotion": "Nostálgico",
     "need": "Recordar",
     "spotifyUrl": "https://open.spotify.com/track/3BQHpBn24C7QcyzULqEnEb",
-    "coverUrl": "https://i.scdn.co/image/ab67616d0000b273e3a4788106209b55239a5183"
+    "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/1a/19/db/1a19db26-17ad-b986-11a9-f72ac7a6194b/18UMGIM31214.rgb.jpg/600x600bb.jpg",
+    "videoId": "NrgmdOz227I"
   },
   {
-    "id": 14,
+    "id": 42,
     "title": "Landslide",
     "artist": "Fleetwood Mac",
     "emotion": "Nostálgico",
     "need": "Reflexionar",
     "spotifyUrl": "https://open.spotify.com/track/5ihS6UUlyQAfmp48eSkxuQ",
-    "coverUrl": "https://i.scdn.co/image/ab67616d0000b273a1441852d4b9b9c94576b5c7"
+    "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/64/cc/0b/64cc0b3b-92fb-66cf-1240-e2afba504e4b/603497863105.jpg/600x600bb.jpg",
+    "videoId": "RAkOm7XLoQQ"
   },
   {
-    "id": 15,
+    "id": 43,
     "title": "1979",
     "artist": "The Smashing Pumpkins",
     "emotion": "Nostálgico",
     "need": "Melancolía dulce",
     "spotifyUrl": "https://open.spotify.com/track/5QLHGv0DfpeXLNFo7SFEy1",
-    "coverUrl": "https://i.scdn.co/image/ab67616d0000b273ad51b5c2c77d4838421d4289"
+    "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/ca/ce/b2/caceb2ed-50f0-c666-e4d0-165a0a1541fc/13UABIM04008.rgb.jpg/600x600bb.jpg",
+    "videoId": "PufFJWCcc_w"
   },
   {
-    "id": 16,
+    "id": 44,
+    "title": "Dreams",
+    "artist": "Fleetwood Mac",
+    "emotion": "Nostálgico",
+    "need": "Recordar",
+    "spotifyUrl": "https://open.spotify.com/track/0ofHAox99v9STrTvI0BTVp",
+    "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/d2/48/f4/d248f4ae-a7e4-a48e-1588-6617de3e8d76/mzi.izeorbmm.jpg/600x600bb.jpg",
+    "videoId": "5oWyMakvQew"
+  },
+  {
+    "id": 45,
+    "title": "Fast Car",
+    "artist": "Tracy Chapman",
+    "emotion": "Nostálgico",
+    "need": "Reflexionar",
+    "spotifyUrl": "https://open.spotify.com/track/27SdWb2rFzO66WiYjSixuM",
+    "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/b8/c4/31/b8c431e9-a67d-3917-72e5-be9f5a1ebc46/075596077460.jpg/600x600bb.jpg",
+    "videoId": "JpscHOoGIqQ"
+  },
+  {
+    "id": 46,
+    "title": "Wish You Were Here",
+    "artist": "Pink Floyd",
+    "emotion": "Nostálgico",
+    "need": "Recordar",
+    "spotifyUrl": "https://open.spotify.com/track/7u9KYpSgc3XwUnp4m7q9Dx",
+    "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/aa/e0/ab/aae0ab6a-d906-a189-81bf-70b56aa43f7a/886445635843.jpg/600x600bb.jpg",
+    "videoId": "-0MQXbcw-co"
+  },
+  {
+    "id": 47,
+    "title": "Old Man",
+    "artist": "Neil Young",
+    "emotion": "Nostálgico",
+    "need": "Reflexionar",
+    "spotifyUrl": "https://open.spotify.com/track/57bgtoPSgt236HzfBOd8kj",
+    "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/4d/45/41/4d45414c-6364-51cf-2874-7c8aa755caaa/mzi.oetoyyot.jpg/600x600bb.jpg",
+    "videoId": "ZKCiC-H2Xbg"
+  },
+  {
+    "id": 48,
+    "title": "Hotel California",
+    "artist": "Eagles",
+    "emotion": "Nostálgico",
+    "need": "Recordar",
+    "spotifyUrl": "https://open.spotify.com/track/4D7BCYAyIPYp79f9f9f9f9",
+    "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/88/16/2c/88162c3d-46db-8321-61f3-3a47404cfe76/075596050920.jpg/600x600bb.jpg",
+    "videoId": "dLl4PZtxia8"
+  },
+  {
+    "id": 49,
+    "title": "Take Me Home, Country Roads",
+    "artist": "John Denver",
+    "emotion": "Nostálgico",
+    "need": "Melancolía dulce",
+    "spotifyUrl": "https://open.spotify.com/track/1Cv1v1v1v1v1v1v1v1v1v1",
+    "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/c6/c7/6f/c6c76f73-fcc7-93f7-ced1-2a74c9bdeead/196589072375.jpg/600x600bb.jpg",
+    "videoId": "1vrEljMfXYo"
+  },
+  {
+    "id": 50,
+    "title": "Stand By Me",
+    "artist": "Ben E. King",
+    "emotion": "Nostálgico",
+    "need": "Recordar",
+    "spotifyUrl": "https://open.spotify.com/track/561jH07mF1jHuk7KlaeF0s",
+    "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/46/75/80/467580f9-1f8d-5c80-ac48-34e0f1a56816/081227297060.jpg/600x600bb.jpg",
+    "videoId": "hwZNL7QVJjE"
+  },
+  {
+    "id": 51,
     "title": "Lose Yourself",
     "artist": "Eminem",
     "emotion": "Motivado",
     "need": "Superación",
     "spotifyUrl": "https://open.spotify.com/track/561jH07mF1jHuk7KlaeF0s",
-    "coverUrl": "https://i.scdn.co/image/ab67616d0000b2736ca5c90113b30c3c43ffb8f4"
+    "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/08/23/fc/0823fcd9-cb44-695b-32bf-b3bf51d9f800/00606949351229.rgb.jpg/600x600bb.jpg",
+    "videoId": "xFYQQPAOz7Y"
   },
   {
-    "id": 17,
+    "id": 52,
     "title": "Don't Stop Believin'",
     "artist": "Journey",
     "emotion": "Motivado",
     "need": "Esperanza",
     "spotifyUrl": "https://open.spotify.com/track/4bHsxqR3GMrXTxEPLuK5ue",
-    "coverUrl": "https://i.scdn.co/image/ab67616d0000b273574c8273617154238715832a"
+    "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/71/2d/61/712d617d-f4a4-5904-1b11-d4b4b45c47c5/828768588925.jpg/600x600bb.jpg",
+    "videoId": "1k8craCGpgs"
   },
   {
-    "id": 18,
+    "id": 53,
     "title": "Hall of Fame",
     "artist": "The Script",
     "emotion": "Motivado",
     "need": "Logro",
     "spotifyUrl": "https://open.spotify.com/track/6kJ8tK7vP6V92a0a2C6e6q",
-    "coverUrl": "https://i.scdn.co/image/ab67616d0000b27320c0282467d1656885354e60"
+    "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/bb/89/cd/bb89cdb5-4456-2b75-d1f9-e61009a4c8cc/886443609532.jpg/600x600bb.jpg",
+    "videoId": "ds6o9in_y-o"
+  },
+  {
+    "id": 54,
+    "title": "The Climb",
+    "artist": "Miley Cyrus",
+    "emotion": "Motivado",
+    "need": "Esperanza",
+    "spotifyUrl": "https://open.spotify.com/track/59S9S6SInFvT0w1CSt7m7v",
+    "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/23/42/0a/23420a7b-6fe0-9a8b-a740-c8e1ff6db2a7/09PNDIM00900.rgb.jpg/600x600bb.jpg",
+    "videoId": "NG2zyeVRcbs"
+  },
+  {
+    "id": 55,
+    "title": "Unstoppable",
+    "artist": "Sia",
+    "emotion": "Motivado",
+    "need": "Superación",
+    "spotifyUrl": "https://open.spotify.com/track/1Cv1v1v1v1v1v1v1v1v1v1",
+    "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/bc/13/27/bc13275c-8b26-802d-771b-d15ae00fb530/mzm.hvpwjsvi.jpg/600x600bb.jpg",
+    "videoId": "cxjvTXo9WWM"
+  },
+  {
+    "id": 56,
+    "title": "Believer",
+    "artist": "Imagine Dragons",
+    "emotion": "Motivado",
+    "need": "Logro",
+    "spotifyUrl": "https://open.spotify.com/track/7u9KYpSgc3XwUnp4m7q9Dx",
+    "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/11/7a/b8/117ab805-6811-8929-18b9-0fad7baf0c25/17UMGIM98210.rgb.jpg/600x600bb.jpg",
+    "videoId": "IhP3J0j9JmY"
+  },
+  {
+    "id": 57,
+    "title": "Rise Up",
+    "artist": "Andra Day",
+    "emotion": "Motivado",
+    "need": "Esperanza",
+    "spotifyUrl": "https://open.spotify.com/track/57bgtoPSgt236HzfBOd8kj",
+    "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/7e/7b/4a/7e7b4a67-1ff7-efc4-10cf-2286cd30786e/dj.jnvitiaq.jpg/600x600bb.jpg",
+    "videoId": "kNKu1uNBVkU"
+  },
+  {
+    "id": 58,
+    "title": "Stronger (What Doesn't Kill You)",
+    "artist": "Kelly Clarkson",
+    "emotion": "Motivado",
+    "need": "Superación",
+    "spotifyUrl": "https://open.spotify.com/track/4D7BCYAyIPYp79f9f9f9f9",
+    "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/d7/e8/b3/d7e8b337-a688-ff11-252c-3bf921cf1fc0/mzi.qfqukfyx.jpg/600x600bb.jpg",
+    "videoId": "avYxiIRG4xQ"
+  },
+  {
+    "id": 59,
+    "title": "Titanium",
+    "artist": "David Guetta ft. Sia",
+    "emotion": "Motivado",
+    "need": "Superación",
+    "spotifyUrl": "https://open.spotify.com/track/1Cv1v1v1v1v1v1v1v1v1v1",
+    "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/f6/b9/e2/f6b9e2df-c638-3e4b-c28d-a68b06465758/5099997943051.jpg/600x600bb.jpg",
+    "videoId": "Rohq0D72X3Q"
+  },
+  {
+    "id": 60,
+    "title": "Brave",
+    "artist": "Sara Bareilles",
+    "emotion": "Motivado",
+    "need": "Esperanza",
+    "spotifyUrl": "https://open.spotify.com/track/561jH07mF1jHuk7KlaeF0s",
+    "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/8e/6d/82/8e6d82f3-b795-d68a-ecba-aebeec214b22/886443982444.jpg/600x600bb.jpg",
+    "videoId": "QUQsqBqxoR4"
   }
 ]

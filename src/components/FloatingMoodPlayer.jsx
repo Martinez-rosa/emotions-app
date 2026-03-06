@@ -1,6 +1,5 @@
 import { useState, useRef, useEffect } from 'react';
 import { motion } from 'framer-motion';
-// Asumiendo que Vite maneja la importación de mp3 correctamente
 import lofiAudio from '../assets/audio/lofi-background.mp3';
 
 const FloatingMoodPlayer = () => {
