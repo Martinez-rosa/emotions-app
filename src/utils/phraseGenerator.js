@@ -25,131 +25,123 @@ const isRepeated = (phrase) => {
   return getHistory().includes(phrase);
 };
 
-// Word Banks
-const banks = {
+// Word Banks for Titles (Short, poetic)
+const titleBanks = {
   triste: {
-    nouns: ['Lluvia', 'Silencio', 'Eco', 'Niebla', 'Cristal', 'Lamento', 'Susurro', 'Gris', 'Noche', 'Océano', 'Reflejo', 'Sombra', 'Lágrima', 'Invierno'],
-    adjectives: ['Eterno', 'Roto', 'Profundo', 'Olvidado', 'Lejano', 'Invisible', 'Frío', 'Nostálgico', 'Solitario', 'Melancólico', 'Silencioso', 'Azul'],
-    contexts: ['de Medianoche', 'del Alma', 'sin Fin', 'en la Oscuridad', 'de Invierno', 'bajo el Agua', 'en el Viento', 'sin Nombre', 'de Cristal', 'en la Distancia']
+    nouns: ['Lluvia', 'Silencio', 'Eco', 'Niebla', 'Cristal', 'Lamento', 'Susurro', 'Gris', 'Noche', 'Océano', 'Reflejo', 'Sombra', 'Lágrima', 'Invierno', 'Melancolía'],
+    contexts: ['de Medianoche', 'del Alma', 'sin Fin', 'en la Oscuridad', 'de Invierno', 'bajo el Agua', 'en el Viento', 'sin Nombre', 'de Cristal', 'en la Distancia', 'Eterno', 'Profundo']
   },
   feliz: {
-    nouns: ['Sol', 'Risa', 'Luz', 'Chispa', 'Danza', 'Color', 'Cielo', 'Verano', 'Melodía', 'Brisa', 'Destello', 'Fiesta', 'Magia', 'Amanecer'],
-    adjectives: ['Radiante', 'Eterno', 'Brillante', 'Dorado', 'Infinito', 'Dulce', 'Mágico', 'Vibrante', 'Cálido', 'Alegre', 'Luminoso', 'Festivo'],
-    contexts: ['de la Mañana', 'sin Fin', 'de Oro', 'en Libertad', 'del Corazón', 'de Verano', 'Bajo el Sol', 'con Amigos', 'de Colores', 'sin Límites']
+    nouns: ['Sol', 'Risa', 'Luz', 'Chispa', 'Danza', 'Color', 'Cielo', 'Verano', 'Melodía', 'Brisa', 'Destello', 'Fiesta', 'Magia', 'Amanecer', 'Alegría'],
+    contexts: ['de la Mañana', 'sin Fin', 'de Oro', 'en Libertad', 'del Corazón', 'de Verano', 'Bajo el Sol', 'con Amigos', 'de Colores', 'sin Límites', 'Radiante', 'Brillante']
   },
   energico: {
-    nouns: ['Rayo', 'Trueno', 'Volcán', 'Fuego', 'Tormenta', 'Pulso', 'Motor', 'Ritmo', 'Explosión', 'Llama', 'Fuerza', 'Impulso', 'Salto'],
-    adjectives: ['Eléctrico', 'Imparable', 'Fuerte', 'Veloz', 'Ardiente', 'Poderoso', 'Intenso', 'Salvaje', 'Dinámico', 'Vital', 'Activo'],
-    contexts: ['de Energía', 'en Movimiento', 'a Toda Velocidad', 'sin Frenos', 'del Futuro', 'en Llamas', 'de Alto Voltaje', 'Indomable', 'Total', 'Máximo']
+    nouns: ['Rayo', 'Trueno', 'Volcán', 'Fuego', 'Tormenta', 'Pulso', 'Motor', 'Ritmo', 'Explosión', 'Llama', 'Fuerza', 'Impulso', 'Salto', 'Energía'],
+    contexts: ['en Movimiento', 'a Toda Velocidad', 'sin Frenos', 'del Futuro', 'en Llamas', 'de Alto Voltaje', 'Indomable', 'Total', 'Máximo', 'Vital', 'Eléctrico']
   },
   tranquilo: {
-    nouns: ['Lago', 'Brisa', 'Hoja', 'Nube', 'Jardín', 'Río', 'Bosque', 'Luna', 'Calma', 'Suspiro', 'Horizonte', 'Bambú', 'Arena', 'Olas'],
-    adjectives: ['Sereno', 'Suave', 'Lento', 'Flotante', 'Quieto', 'Pacífico', 'Armónico', 'Sutil', 'Zen', 'Natural', 'Fresco', 'Leve'],
-    contexts: ['en Calma', 'de Paz', 'al Atardecer', 'del Bosque', 'en Silencio', 'de Cristal', 'bajo la Luna', 'sin Tiempo', 'Fluyendo', 'en Equilibrio']
+    nouns: ['Lago', 'Brisa', 'Hoja', 'Nube', 'Jardín', 'Río', 'Bosque', 'Luna', 'Calma', 'Suspiro', 'Horizonte', 'Bambú', 'Arena', 'Olas', 'Paz'],
+    contexts: ['en Calma', 'de Paz', 'al Atardecer', 'del Bosque', 'en Silencio', 'de Cristal', 'bajo la Luna', 'sin Tiempo', 'Fluyendo', 'en Equilibrio', 'Sereno', 'Suave']
   },
   nostalgico: {
-    nouns: ['Recuerdo', 'Álbum', 'Foto', 'Carta', 'Perfume', 'Huella', 'Ecos', 'Atardecer', 'Infancia', 'Ayer', 'Memoria', 'Viento', 'Estación'],
-    adjectives: ['Sepia', 'Lejano', 'Dulce', 'Antiguo', 'Perdido', 'Eterno', 'Dorado', 'Suave', 'Querido', 'Inolvidable', 'Pasado', 'Añorado'],
-    contexts: ['del Pasado', 'en el Tiempo', 'de Ayer', 'que Vuelve', 'en la Memoria', 'sin Olvido', 'de Otra Vida', 'en el Corazón', 'Dormido']
+    nouns: ['Recuerdo', 'Álbum', 'Foto', 'Carta', 'Perfume', 'Huella', 'Ecos', 'Atardecer', 'Infancia', 'Ayer', 'Memoria', 'Viento', 'Estación', 'Nostalgia'],
+    contexts: ['del Pasado', 'en el Tiempo', 'de Ayer', 'que Vuelve', 'en la Memoria', 'sin Olvido', 'de Otra Vida', 'en el Corazón', 'Dormido', 'Lejano', 'Eterno']
   },
   motivado: {
-    nouns: ['Cima', 'Meta', 'Camino', 'Fuego', 'Logro', 'Éxito', 'Cumbre', 'Horizonte', 'Visión', 'Paso', 'Salto', 'Victoria', 'Conquista'],
-    adjectives: ['Imparable', 'Grande', 'Firme', 'Claro', 'Audaz', 'Valiente', 'Nuevo', 'Positivo', 'Fuerte', 'Decidido', 'Constante', 'Heroico'],
-    contexts: ['hacia Arriba', 'sin Límites', 'del Mañana', 'hacia la Meta', 'con Pasión', 'sin Miedo', 'de Campeones', 'Personal', 'Constante']
+    nouns: ['Cima', 'Meta', 'Camino', 'Fuego', 'Logro', 'Éxito', 'Cumbre', 'Horizonte', 'Visión', 'Paso', 'Salto', 'Victoria', 'Conquista', 'Ambición'],
+    contexts: ['hacia Arriba', 'sin Límites', 'del Mañana', 'hacia la Meta', 'con Pasión', 'sin Miedo', 'de Campeones', 'Personal', 'Constante', 'Imparable', 'Firme']
   }
 };
 
-const quoteTemplates = {
+// Curated Quotes (Grammatically correct and poetic)
+const quotes = {
   triste: [
-    "La tristeza es un {noun} que nos enseña a valorar la {noun2}.",
-    "A veces, un {noun} {adj} dice más que mil palabras.",
-    "En el fondo de todo {noun}, siempre hay una {noun2} esperando.",
-    "Permítete sentir este {noun} {adj}, es parte del camino.",
-    "Hasta el {noun} más {adj} termina viendo el sol."
+    "La tristeza es un muro entre dos jardines.",
+    "A veces, llorar es la única forma de que tus ojos vean con claridad.",
+    "El silencio también es una respuesta, y a veces, la más honesta.",
+    "Permítete sentir la lluvia para poder apreciar el sol cuando vuelva.",
+    "No hay noche que no acabe, ni pena que no se transforme.",
+    "Las lágrimas limpian el alma y riegan el jardín de la esperanza.",
+    "En la profundidad de la tristeza, a menudo encontramos nuestra verdadera fuerza.",
+    "Está bien no estar bien todo el tiempo. Tómate tu tiempo para sanar.",
+    "La melancolía es la felicidad de estar triste.",
+    "Escucha lo que tu corazón necesita decirte en este silencio."
   ],
   feliz: [
-    "Tu alegría es como un {noun} {adj} que ilumina todo.",
-    "Celebra cada {noun}, porque la vida es un {noun2}.",
-    "Hoy es un día {adj} para compartir tu {noun}.",
-    "La felicidad se encuentra en cada pequeño {noun}.",
-    "Deja que tu {noun} {adj} contagie al mundo."
+    "La felicidad no es un destino, es la forma de viajar.",
+    "Tu sonrisa es el mejor accesorio que puedes llevar hoy.",
+    "La alegría es contagiosa; pásala.",
+    "Hoy es un día perfecto para empezar algo nuevo.",
+    "Celebra las pequeñas victorias, porque son la esencia de la vida.",
+    "Brilla con luz propia y deja que el mundo se ilumine contigo.",
+    "La vida es un eco; si no te gusta lo que recibes, fíjate en lo que emites.",
+    "No cuentes los días, haz que los días cuenten.",
+    "La felicidad se multiplica cuando se comparte.",
+    "Siente la música, baila con la vida y ríe sin miedo."
   ],
   energico: [
-    "Eres un {noun} {adj} capaz de todo.",
-    "Convierte tu energía en un {noun} {adj}.",
-    "Nada detiene a un {noun} en pleno movimiento.",
-    "Tu fuerza es como un {noun} {adj} que rompe barreras.",
-    "Hoy conquista tu {noun} con espíritu {adj}."
+    "La energía que necesitas está dentro de ti, ¡despiértala!",
+    "No te detengas hasta que te sientas orgulloso.",
+    "El único límite es tu mente. ¡Rompe las barreras!",
+    "Convierte esa adrenalina en tu combustible para el éxito.",
+    "Hoy es el día para mover montañas.",
+    "Tu actitud determina tu dirección. ¡Ve con todo!",
+    "La vida es movimiento; no te quedes quieto.",
+    "Siente el ritmo de tu corazón y síguelo.",
+    "Eres una fuerza de la naturaleza. ¡Demuéstralo!",
+    "La pasión es energía. Siente el poder que viene de concentrarte en lo que te excita."
   ],
   tranquilo: [
-    "La paz es un {noun} {adj} donde descansa el alma.",
-    "Respira como si fueras un {noun} {adj}.",
-    "En la calma de un {noun}, encontrarás tu {noun2}.",
-    "Sé tan {adj} como un {noun} al amanecer.",
-    "El silencio es el {noun} más {adj}."
+    "La paz viene de adentro. No la busques fuera.",
+    "Respira. Todo está en el orden perfecto.",
+    "La calma es el superpoder de la mente.",
+    "En el silencio encontrarás las respuestas que buscas.",
+    "Fluye como el agua, adáptate y sigue tu camino.",
+    "Tómate un momento para apreciar lo que tienes ahora.",
+    "La serenidad no es la ausencia de tormenta, sino la paz en medio de ella.",
+    "Desconecta para reconectar contigo mismo.",
+    "La naturaleza no se apresura, y sin embargo, todo se logra.",
+    "Deja que tus pensamientos floten como nubes en el cielo."
   ],
   nostalgico: [
-    "Cada {noun} es un puente hacia un {noun2} {adj}.",
-    "La nostalgia es el {noun} dulce de lo que fue.",
-    "Recordar es volver a vivir ese {noun} {adj}.",
-    "Guarda este {noun} como un tesoro {adj}.",
-    "El tiempo pasa, pero el {noun} permanece."
+    "Recordar es fácil para quien tiene memoria, olvidar es difícil para quien tiene corazón.",
+    "La nostalgia es el archivo que guarda nuestros mejores momentos.",
+    "No llores porque terminó, sonríe porque sucedió.",
+    "A veces, mirar atrás nos ayuda a ver hacia dónde vamos.",
+    "Los recuerdos son el perfume del alma.",
+    "Cada recuerdo es un ladrillo en la construcción de quien eres hoy.",
+    "Honra tu pasado, pero vive tu presente.",
+    "La música tiene el poder de traernos de vuelta momentos olvidados.",
+    "Hay lugares y canciones que siempre serán un hogar para el corazón.",
+    "El tiempo pasa, pero los sentimientos verdaderos permanecen."
   ],
   motivado: [
-    "Cada paso es un {noun} hacia tu {noun2}.",
-    "Tu potencial es un {noun} {adj} esperando despertar.",
-    "El éxito es la suma de cada pequeño {noun} {adj}.",
-    "Sube a la cima como un {noun} {adj}.",
-    "Hoy es el día para construir tu {noun}."
+    "El éxito es la suma de pequeños esfuerzos repetidos día tras día.",
+    "No sueñes tu vida, vive tu sueño.",
+    "Cree en ti y todo será posible.",
+    "El futuro pertenece a quienes creen en la belleza de sus sueños.",
+    "La disciplina es el puente entre metas y logros.",
+    "Tu único límite eres tú mismo. ¡Supérate!",
+    "Hazlo con pasión o no lo hagas.",
+    "El momento para empezar es ahora.",
+    "Transforma los obstáculos en escalones hacia tu meta.",
+    "Eres el arquitecto de tu propio destino."
   ]
 };
 
-const fillers = {
-  noun2: ['luz', 'verdad', 'calma', 'esperanza', 'fuerza', 'alegría', 'magia', 'paz', 'historia', 'vida']
-};
-
 export const generatePoeticTitle = (mood) => {
-  const bank = banks[mood] || banks['feliz']; // Fallback
+  const bank = titleBanks[mood] || titleBanks['feliz'];
   
-  // Strategies:
-  // 1. Noun + Context (e.g. "Lluvia de Medianoche")
-  // 2. Noun + Adjective (e.g. "Silencio Eterno")
-  // 3. Adjective + Noun (e.g. "Dulce Melodía")
-  
-  const strategy = Math.floor(Math.random() * 3);
   let phrase = "";
   
   // Try generating up to 5 times to avoid duplicates
   for (let i = 0; i < 5; i++) {
     const noun = getRandom(bank.nouns);
-    const adj = getRandom(bank.adjectives);
-    const ctx = getRandom(bank.contexts);
+    const context = getRandom(bank.contexts);
     
-    if (strategy === 0) phrase = `${noun} ${ctx}`;
-    else if (strategy === 1) phrase = `${noun} ${adj}`;
-    else phrase = `${adj} ${noun}`; // Grammar check: In Spanish Adjective-Noun is poetic but tricky with gender. 
-                                   // Let's stick to Noun + Adjective mostly for safety, or ensure gender neutrality.
-                                   // Actually, let's simplify to mostly Noun + Context or Noun + Adjective to avoid gender issues in simple logic.
-                                   // "Eterno Lluvia" is wrong. "Lluvia Eterna" is right.
-                                   // To avoid complexity, let's use: Noun + Context OR Noun + " " + Adjective (assuming masc default or checking?)
-                                   // Spanish gender is hard to automate without metadata.
-                                   // Let's rely on "Context" which is gender-safe ("de ...") 
-                                   // and carefully curated Adjectives that match or are neutral, OR use Noun + Context mostly.
-    
-    // Let's refine the strategy to be safer with Spanish grammar
-    if (Math.random() > 0.4) {
-      phrase = `${noun} ${ctx}`; // Safe: "Lluvia de Medianoche"
-    } else {
-      // For Noun + Adjective, we risk gender mismatch. 
-      // Let's use a "Title" structure: "El [Noun] [Adjective]" or just "[Noun] [Adjective]" 
-      // assuming we curate nouns/adjs to be mostly matching or neutral?
-      // Or we can just use Noun + Context which is very poetic.
-      // Let's stick to Noun + Context for 70% and maybe just Noun for minimal vibes?
-      // Or "Noun" + " " + "Connector" + " " + "Noun2"
-      
-      const noun2 = getRandom(bank.nouns);
-      phrase = `${noun} y ${noun2}`; // "Lluvia y Silencio" - Safe and poetic
-    }
+    // Simple Noun + Context structure is safe and poetic in Spanish
+    // E.g. "Lluvia de Medianoche", "Sol Radiante" (if context is adj), "Rayo de Energía"
+    phrase = `${noun} ${context}`;
     
     if (!isRepeated(phrase)) {
       addToHistory(phrase);
@@ -160,31 +152,19 @@ export const generatePoeticTitle = (mood) => {
 };
 
 export const generateQuote = (mood) => {
-  const templates = quoteTemplates[mood] || quoteTemplates['feliz'];
-  const bank = banks[mood] || banks['feliz'];
+  const moodQuotes = quotes[mood] || quotes['feliz'];
   
+  // Pick a random quote from the curated list
   let phrase = "";
   
   for (let i = 0; i < 5; i++) {
-    const template = getRandom(templates);
-    const noun = getRandom(bank.nouns).toLowerCase();
-    const adj = getRandom(bank.adjectives).toLowerCase();
-    const noun2 = getRandom(fillers.noun2);
-    const verb = "transforma"; // Simplified for now
-    
-    phrase = template
-      .replace('{noun}', noun)
-      .replace('{noun2}', noun2)
-      .replace('{adj}', adj)
-      .replace('{verb}', verb);
-      
-    // Capitalize first letter
-    phrase = phrase.charAt(0).toUpperCase() + phrase.slice(1);
+    phrase = getRandom(moodQuotes);
     
     if (!isRepeated(phrase)) {
       addToHistory(phrase);
       return phrase;
     }
   }
+  
   return phrase;
 };
