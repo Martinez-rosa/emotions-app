@@ -58,9 +58,9 @@ const NavBar = () => {
             exit="closed"
             variants={menuVariants}
             transition={{ duration: 0.3, ease: "easeInOut" }}
-            className="md:hidden overflow-hidden bg-background-dark/95 border-b border-slate-200/10 absolute top-28 left-0 w-full shadow-2xl"
+            className="md:hidden overflow-hidden bg-black/95 border-b border-slate-200/10 absolute top-28 left-0 w-full shadow-2xl z-[50]"
           >
-            <div className="flex flex-col items-center gap-6 py-8">
+            <div className="flex flex-col items-center gap-6 py-8 text-white">
               <Link to="/" onClick={toggleMenu} className="text-lg font-medium hover:text-primary transition-colors">Inicio</Link>
               <Link to="/mood" onClick={toggleMenu} className="text-lg font-medium hover:text-primary transition-colors">Mood</Link>
               <Link to="/videos" onClick={toggleMenu} className="text-lg font-medium hover:text-primary transition-colors">Vídeos</Link>
