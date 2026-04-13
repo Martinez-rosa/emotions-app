@@ -25,21 +25,15 @@ const Transmedia = () => {
           <div className="flex flex-col sm:flex-row justify-center gap-6 w-full max-w-2xl mx-auto">
             {/* Instagram Button */}
             <a 
-              href="#" 
-              className="group flex-1 min-w-[200px] flex items-center justify-center gap-3 bg-gradient-to-r from-purple-600 to-pink-500 hover:opacity-90 text-white font-bold py-5 px-8 rounded-full transition-all transform hover:scale-105 shadow-lg shadow-purple-500/20"
+              href="https://www.instagram.com/emotionsmultimedia?igsh=MThnc2hzb2syaXZ2ag%3D%3D" 
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group min-w-[200px] flex items-center justify-center gap-3 bg-gradient-to-r from-purple-600 to-pink-500 hover:opacity-90 text-white font-bold py-5 px-8 rounded-full transition-all transform hover:scale-105 shadow-lg shadow-purple-500/20"
             >
               <span className="material-symbols-outlined text-3xl">camera_alt</span>
               <span className="text-lg">Instagram</span>
             </a>
 
-            {/* TikTok Button */}
-            <a 
-              href="#" 
-              className="group flex-1 min-w-[200px] flex items-center justify-center gap-3 bg-white text-black font-bold py-5 px-8 rounded-full hover:bg-slate-200 transition-all transform hover:scale-105 shadow-lg shadow-white/10"
-            >
-              <span className="material-symbols-outlined text-3xl">play_circle</span>
-              <span className="text-lg">TikTok</span>
-            </a>
           </div>
         </div>
       </section>

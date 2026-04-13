@@ -6,16 +6,16 @@ const videos = [
     title: '¿Por qué una canción te hace llorar?',
     description: 'Salimos a la calle a preguntarle a la gente qué canción les cambia el estado de ánimo y por qué. Respuestas reales, emociones reales.',
     duration: '1:45',
-    youtubeId: '7dCwQC9Tdk4',
-    thumbnail: 'https://lh3.googleusercontent.com/aida-public/AB6AXuBREvdXhcw3VmHK6t1TRWDPr0KQGZvQIPcJ_QQZGd4AjcRE8ABRYEMw_EOe2-5bCTOASKVePOz-TLPDjVQxxr6_zFHw84po3I2buuVK8yQD-j11ulF98WNRqBsnlIZHGZxxscpgO3qEXFjitNLyw5rPkR-Ys6q22tt6zZnMSL5AiPAWEPZiwNKp5BOVzUSrmIfUEpG6qleTKOnQTvYVLjhSgYa4zGMuwmtrJ7JBNktUnMW4JsmJ-mVgmg-hw7MGMtER5HwJFH9l-bNN'
+    videoSrc: 'https://wnravbyjsdzqymim.public.blob.vercel-storage.com/Video1%20emotions.mp4',
+    thumbnail: '/video1-poster.jpg'
   },
   {
     id: 2,
     title: 'Tu cerebro con música vs sin música',
     description: '¿Qué le pasa realmente a tu cerebro cuando escuchas música? Te lo explicamos en menos de 3 minutos con datos que te van a sorprender.',
     duration: '2:30',
-    youtubeId: 'UOJ4V3DAAx8',
-    thumbnail: 'https://lh3.googleusercontent.com/aida-public/AB6AXuCF8L3-qT8WiqMRJz5P2VFYC7J8Bk7Ifhz2yCXJ2ASZKl2TdS6lKvlXp9_EPc-da74LjJbla3AsXjdnETb4kmGcnJOTQETbMapKxwvPazsAs9HFIq-dMSzYJ8z6qPxfjQo211DZWpwT4ODyV296uIMocXz2T4NcMG-ctptN_iHkGO1k9CvMlv2P_sW4UZVsJRgEyP0mANOqE5NBzyFJg1AWV6bmWblEJERekmRScubHQhwqLERswqSZskgT--gQTOfgX18Q8b_yTQPB'
+    videoSrc: 'https://wnravbyjsdzqymim.public.blob.vercel-storage.com/Video2Multimedia.mp4',
+    thumbnail: '/video2-poster.jpg'
   }
 ];
 
@@ -94,7 +94,7 @@ const Videos = () => {
       {/* Video Modal */}
       {selectedVideo && (
         <div 
-          className="fixed inset-0 z-50 bg-black/90 backdrop-blur-sm flex items-center justify-center p-4 animate-in fade-in duration-200"
+          className="fixed inset-0 z-[100] bg-black/90 backdrop-blur-sm flex items-center justify-center p-4 animate-in fade-in duration-200"
           onClick={() => setSelectedVideo(null)}
         >
           <div 
@@ -104,21 +104,33 @@ const Videos = () => {
             {/* Close Button */}
             <button 
               onClick={() => setSelectedVideo(null)}
-              className="absolute top-4 right-4 z-50 p-2 rounded-full bg-black/50 hover:bg-white/20 text-white transition-colors"
+              className="absolute top-4 right-4 z-[110] p-2 rounded-full bg-black/50 hover:bg-white/20 text-white transition-colors"
             >
               <span className="material-symbols-outlined">close</span>
             </button>
             
-            <iframe 
-              width="100%" 
-              height="100%" 
-              src={`https://www.youtube.com/embed/${selectedVideo.youtubeId}?autoplay=1`} 
-              title={selectedVideo.title} 
-              frameBorder="0" 
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-              allowFullScreen
-              className="w-full h-full"
-            ></iframe>
+            {selectedVideo.videoSrc ? (
+              <video 
+                src={selectedVideo.videoSrc} 
+                poster={selectedVideo.thumbnail}
+                controls 
+                autoPlay 
+                className="w-full h-full"
+                onClick={(e) => e.stopPropagation()}
+              />
+            ) : (
+              <iframe 
+                width="100%" 
+                height="100%" 
+                src={`https://www.youtube.com/embed/${selectedVideo.youtubeId}?autoplay=1`} 
+                title={selectedVideo.title} 
+                frameBorder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowFullScreen
+                className="w-full h-full"
+                onClick={(e) => e.stopPropagation()}
+              ></iframe>
+            )}
           </div>
         </div>
       )}

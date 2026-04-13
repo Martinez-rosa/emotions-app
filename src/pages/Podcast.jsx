@@ -1,9 +1,8 @@
 import { useState, useRef } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import podcastCover from '../assets/images/emotions-podcast.png';
-// Importamos el audio. Si no existe podcast.mp3, usaremos lofi-background.mp3 como fallback temporal para que no falle la compilación
-// TODO: Asegúrate de tener el archivo src/assets/audio/podcast.mp3
-import podcastAudio from '../assets/audio/lofi-background.mp3'; 
+// Audio source from Vercel Storage
+const podcastAudio = "https://wnravbyjsdzqymim.public.blob.vercel-storage.com/podcast%20emotions%20cap1.mp3";
 
 const Podcast = () => {
   const [isPlaying, setIsPlaying] = useState(false);

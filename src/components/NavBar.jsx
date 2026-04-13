@@ -20,7 +20,8 @@ const NavBar = () => {
           <img 
             src={logo} 
             alt="Emotions Logo" 
-            className="h-[300%] w-auto object-contain" 
+            className="h-[180%] w-auto object-contain" 
+
           />
         </Link>
         
